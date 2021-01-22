@@ -28,13 +28,13 @@ public class OrderItemController {
 
     @ApiOperation(value = "删除订单项")
     @DeleteMapping("/delItem")
-    public Result<String> delItem(@Param("itemId") Integer itemId){
+    public Result<String> delItem(@RequestParam("itemId") Integer itemId){
         return orderItemService.delItem(itemId);
     }
 
     @ApiOperation(value = "根据订单号获取所有订单项")
     @GetMapping("/getByOId")
-    public Result<List<OrderItem>> getByOId(@Param("oid") Integer oid){
+    public Result<List<OrderItem>> getByOId(@RequestParam("oid") Integer oid){
         return orderItemService.getByOid(oid);
     }
 }

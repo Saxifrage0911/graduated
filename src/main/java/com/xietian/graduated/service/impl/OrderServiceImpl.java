@@ -55,7 +55,7 @@ public class OrderServiceImpl implements OrderService {
         List<OrderItem> list = orderItemService.getByOid(oId).getData();
         BigDecimal totalPrice = new BigDecimal(0);
         for(OrderItem o:list){
-            totalPrice.add(o.getItemPrice());
+            totalPrice = totalPrice.add(o.getItemPrice());
         }
         Order order = new Order();
         order.setTotalPrice(totalPrice);

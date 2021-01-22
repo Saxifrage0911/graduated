@@ -27,7 +27,7 @@ public class PlaneController {
 
     @DeleteMapping("/delPlane")
     @ApiOperation(value = "删除飞机(管理员）")
-    public Result<String> delPlane(@Param("id") Integer id){
+    public Result<String> delPlane(@RequestParam("id") Integer id){
         return planeService.delPlane(id);
     }
 

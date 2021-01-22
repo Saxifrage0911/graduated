@@ -27,31 +27,31 @@ public class OrderController {
 
     @ApiOperation(value = "更新订单总额")
     @GetMapping("/updateTotalPrice")
-    public Result<String> updateTotalPrice(@Param("oid") Integer oid){
+    public Result<String> updateTotalPrice(@RequestParam("oid") Integer oid){
         return orderService.updateOrderTotalPrice(oid);
     }
 
     @ApiOperation(value = "取消订单")
     @DeleteMapping("/cancelOrder")
-    public Result<String> cancelOrder(@Param("oid") Integer oid){
+    public Result<String> cancelOrder(@RequestParam("oid") Integer oid){
         return orderService.cancelOrder(oid);
     }
 
     @ApiOperation(value = "支付订单")
     @GetMapping("/payOrder")
-    public Result<String> payOrder(@Param("oid") Integer oid){
+    public Result<String> payOrder(@RequestParam("oid") Integer oid){
         return orderService.payOrder(oid);
     }
 
     @ApiOperation(value = "获取所有已完成订单")
     @GetMapping("/getFOrder")
-    public Result<List<Order>> getFOrder(@Param("uid") Integer uid){
+    public Result<List<Order>> getFOrder(@RequestParam("uid") Integer uid){
         return orderService.getByUidF(uid);
     }
 
     @ApiOperation(value = "获取所有未完成订单")
     @GetMapping("/getUOrder")
-    public Result<List<Order>> getUOrder(@Param("uid") Integer uid){
+    public Result<List<Order>> getUOrder(@RequestParam("uid") Integer uid){
         return orderService.getByUidU(uid);
     }
 }
