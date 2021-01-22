@@ -8,6 +8,7 @@ import com.xietian.graduated.pojo.OrderItemExample;
 import com.xietian.graduated.pojo.Ticket;
 import com.xietian.graduated.service.FlightService;
 import com.xietian.graduated.service.OrderItemService;
+import com.xietian.graduated.service.OrderService;
 import com.xietian.graduated.service.TicketService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -22,6 +23,8 @@ public class OrderItemServiceImpl implements OrderItemService{
     private OrderItemMapper orderItemMapper;
     @Autowired
     private TicketService ticketService;
+    @Autowired
+    private OrderService orderService;
     @Autowired
     private FlightService flightService;
 
@@ -72,7 +75,7 @@ public class OrderItemServiceImpl implements OrderItemService{
                 else return Result.isError(105,"机票数不足");
             }
         }
-        else return Result.isError(104,"操作数据不存在");
+        else return Result.isError(104,"操作数据不存在,tid="+tid);
 
         return Result.isSuccess();
     }

@@ -58,6 +58,7 @@ public class OrderServiceImpl implements OrderService {
             totalPrice.add(o.getItemPrice());
         }
         Order order = new Order();
+        order.setTotalPrice(totalPrice);
         OrderExample orderExample = new OrderExample();
         OrderExample.Criteria criteria = orderExample.createCriteria();
         criteria.andOIdEqualTo(oId);

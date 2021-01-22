@@ -11,7 +11,6 @@ mybatis:
 #  configuration:
 #    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 
-
 swagger:
   enable: true
 spring:
@@ -46,3 +45,8 @@ spring:
 
 logging:
   config: classpath:logback-spring.xml
+  level:
+    com:
+      xietian:
+        graduated:
+          dao: DEBUG
