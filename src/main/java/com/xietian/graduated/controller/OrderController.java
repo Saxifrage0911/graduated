@@ -1,6 +1,8 @@
 package com.xietian.graduated.controller;
 
 import com.xietian.graduated.common.util.Result;
+import com.xietian.graduated.dto.OrderCountDto;
+import com.xietian.graduated.dto.OrderListDto;
 import com.xietian.graduated.pojo.Order;
 import com.xietian.graduated.service.OrderService;
 import io.swagger.annotations.Api;
@@ -32,7 +34,7 @@ public class OrderController {
     }
 
     @ApiOperation(value = "取消订单")
-    @DeleteMapping("/cancelOrder")
+    @GetMapping("/cancelOrder")
     public Result<String> cancelOrder(@RequestParam("oid") Integer oid){
         return orderService.cancelOrder(oid);
     }
@@ -45,13 +47,20 @@ public class OrderController {
 
     @ApiOperation(value = "获取所有已完成订单")
     @GetMapping("/getFOrder")
-    public Result<List<Order>> getFOrder(@RequestParam("uid") Integer uid){
+    public Result<List<OrderListDto>> getFOrder(@RequestParam("uid") Integer uid){
         return orderService.getByUidF(uid);
     }
 
     @ApiOperation(value = "获取所有未完成订单")
     @GetMapping("/getUOrder")
-    public Result<List<Order>> getUOrder(@RequestParam("uid") Integer uid){
+    public Result<List<OrderListDto>> getUOrder(@RequestParam("uid") Integer uid){
         return orderService.getByUidU(uid);
     }
+
+    @ApiOperation(value = "获取订单数量")
+    @GetMapping("/getOrderCount")
+    public Result<OrderCountDto> getOrderCount(@RequestParam("uid") Integer uid){
+        return orderService.getOrderCount(uid);
+    }
+
 }

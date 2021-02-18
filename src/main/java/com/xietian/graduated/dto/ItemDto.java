@@ -16,14 +16,26 @@ public class ItemDto {
     @NotNull(message = "身份证号不能为空")
     private String idnum;
 
-    public ItemDto(@NotNull(message = "订单号不能为空") int oid, @NotNull(message = "机票不能为空") int tid, @NotNull(message = "购买的用户不能为空") int uid, @NotNull(message = "身份证号不能为空") String idnum) {
+    @NotNull(message = "姓名不能为空")
+    private String realName;
+
+    public ItemDto(@NotNull(message = "订单号不能为空") int oid, @NotNull(message = "机票不能为空") int tid, @NotNull(message = "购买的用户不能为空") int uid, @NotNull(message = "身份证号不能为空") String idnum, @NotNull(message = "姓名不能为空") String realName) {
         this.oid = oid;
         this.tid = tid;
         this.uid = uid;
         this.idnum = idnum;
+        this.realName = realName;
     }
 
     public ItemDto() {
+    }
+
+    public String getRealName() {
+        return realName;
+    }
+
+    public void setRealName(String realName) {
+        this.realName = realName;
     }
 
     public int getOid() {

@@ -37,7 +37,7 @@ public class OrderItemServiceImpl implements OrderItemService{
     }
 
     @Override
-    public Result<String> buyTicket(int oid, int tid, int uid, String idnum) {
+    public Result<String> buyTicket(int oid, int tid, int uid, String idnum, String realName) {
         Ticket ticket = ticketService.getById(tid).getData();
         boolean canBUY = false;
         if(ticket!=null){
@@ -68,6 +68,7 @@ public class OrderItemServiceImpl implements OrderItemService{
                     orderItem.setItemPrice(ticket.gettPrice());
                     orderItem.setSeat("none");
                     orderItem.setpIdnum(idnum);
+                    orderItem.setpRealname(realName);
 
                     if(orderItemMapper.insert(orderItem)<1) return Result.isError(101,"插入失败");
                 }

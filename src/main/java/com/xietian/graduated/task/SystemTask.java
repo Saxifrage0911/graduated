@@ -34,7 +34,7 @@ public class SystemTask {
     private static List<String> fcNum  = Arrays.asList("U","V","W","X","Y","Z");
 
 
-    @Scheduled(initialDelay = 1000*5, fixedDelay = 1000*60*2)
+    @Scheduled(initialDelay = 1000*5, fixedDelay = 1000*60)
     public void updateOrderStatus(){
         orderService.getOverdueOrderAndCancel();
     }

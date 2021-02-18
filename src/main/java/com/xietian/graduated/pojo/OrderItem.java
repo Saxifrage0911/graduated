@@ -17,6 +17,8 @@ public class OrderItem {
 
     private String seat;
 
+    private String pRealname;
+
     public Integer getItemId() {
         return itemId;
     }
@@ -71,5 +73,13 @@ public class OrderItem {
 
     public void setSeat(String seat) {
         this.seat = seat == null ? null : seat.trim();
+    }
+
+    public String getpRealname() {
+        return pRealname;
+    }
+
+    public void setpRealname(String pRealname) {
+        this.pRealname = pRealname == null ? null : pRealname.trim();
     }
 }

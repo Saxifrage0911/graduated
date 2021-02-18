@@ -6,7 +6,6 @@ import com.xietian.graduated.pojo.OrderItem;
 import com.xietian.graduated.service.OrderItemService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
-import org.apache.ibatis.annotations.Param;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
@@ -23,7 +22,7 @@ public class OrderItemController {
     @ApiOperation(value = "增加订单项")
     @PostMapping("/addItem")
     public Result<String> addItem(@RequestBody @Validated ItemDto itemDto){
-        return orderItemService.buyTicket(itemDto.getOid(),itemDto.getTid(),itemDto.getUid(),itemDto.getIdnum());
+        return orderItemService.buyTicket(itemDto.getOid(),itemDto.getTid(),itemDto.getUid(),itemDto.getIdnum(),itemDto.getRealName());
     }
 
     @ApiOperation(value = "删除订单项")

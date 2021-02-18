@@ -1,6 +1,7 @@
 package com.xietian.graduated;
 
 import com.xietian.graduated.pojo.User;
+import com.xietian.graduated.service.FlightService;
 import com.xietian.graduated.service.UserService;
 import com.xietian.graduated.task.SystemTask;
 import org.junit.jupiter.api.Test;
@@ -15,6 +16,8 @@ class GraduatedApplicationTests {
 
     @Autowired
     UserService userService;
+    @Autowired
+    FlightService flightService;
 
 	@Test
 	void contextLoads() {
@@ -59,5 +62,10 @@ class GraduatedApplicationTests {
 //            System.out.println(s);
 //        }
 //    }
+
+    @Test
+    void testTicketSold(){
+        System.out.println(flightService.soldTicket(1,"eco",1));
+    }
 
 }

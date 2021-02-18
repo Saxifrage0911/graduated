@@ -544,6 +544,76 @@ public class OrderItemExample {
             addCriterion("seat not between", value1, value2, "seat");
             return (Criteria) this;
         }
+
+        public Criteria andPRealnameIsNull() {
+            addCriterion("p_realName is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andPRealnameIsNotNull() {
+            addCriterion("p_realName is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andPRealnameEqualTo(String value) {
+            addCriterion("p_realName =", value, "pRealname");
+            return (Criteria) this;
+        }
+
+        public Criteria andPRealnameNotEqualTo(String value) {
+            addCriterion("p_realName <>", value, "pRealname");
+            return (Criteria) this;
+        }
+
+        public Criteria andPRealnameGreaterThan(String value) {
+            addCriterion("p_realName >", value, "pRealname");
+            return (Criteria) this;
+        }
+
+        public Criteria andPRealnameGreaterThanOrEqualTo(String value) {
+            addCriterion("p_realName >=", value, "pRealname");
+            return (Criteria) this;
+        }
+
+        public Criteria andPRealnameLessThan(String value) {
+            addCriterion("p_realName <", value, "pRealname");
+            return (Criteria) this;
+        }
+
+        public Criteria andPRealnameLessThanOrEqualTo(String value) {
+            addCriterion("p_realName <=", value, "pRealname");
+            return (Criteria) this;
+        }
+
+        public Criteria andPRealnameLike(String value) {
+            addCriterion("p_realName like", value, "pRealname");
+            return (Criteria) this;
+        }
+
+        public Criteria andPRealnameNotLike(String value) {
+            addCriterion("p_realName not like", value, "pRealname");
+            return (Criteria) this;
+        }
+
+        public Criteria andPRealnameIn(List<String> values) {
+            addCriterion("p_realName in", values, "pRealname");
+            return (Criteria) this;
+        }
+
+        public Criteria andPRealnameNotIn(List<String> values) {
+            addCriterion("p_realName not in", values, "pRealname");
+            return (Criteria) this;
+        }
+
+        public Criteria andPRealnameBetween(String value1, String value2) {
+            addCriterion("p_realName between", value1, value2, "pRealname");
+            return (Criteria) this;
+        }
+
+        public Criteria andPRealnameNotBetween(String value1, String value2) {
+            addCriterion("p_realName not between", value1, value2, "pRealname");
+            return (Criteria) this;
+        }
     }
 
     public static class Criteria extends GeneratedCriteria {
