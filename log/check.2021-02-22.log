@@ -1,0 +1,855 @@
+2021-02-22 16:22:26 INFO  org.hibernate.validator.internal.util.Version [HV000001: Hibernate Validator 5.4.1.Final]
+2021-02-22 16:22:26 INFO  com.xietian.graduated.GraduatedApplication [Starting GraduatedApplication using Java 1.8.0_261 on DESKTOP-D50U990 with PID 8412 (D:\java\IntelliJ IDEA 2017.2.2\project\graduated\target\classes started by xt111 in D:\java\IntelliJ IDEA 2017.2.2\project\graduated)]
+2021-02-22 16:22:26 INFO  com.xietian.graduated.GraduatedApplication [No active profile set, falling back to default profiles: default]
+2021-02-22 16:22:26 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable]
+2021-02-22 16:22:26 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG']
+2021-02-22 16:22:27 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Multiple Spring Data modules found, entering strict repository configuration mode!]
+2021-02-22 16:22:27 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Bootstrapping Spring Data Redis repositories in DEFAULT mode.]
+2021-02-22 16:22:27 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.]
+2021-02-22 16:22:28 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [Tomcat initialized with port(s): 8088 (https) 8086 (http)]
+2021-02-22 16:22:28 INFO  org.apache.coyote.http11.Http11NioProtocol [Initializing ProtocolHandler ["https-openssl-nio-8088"]]
+2021-02-22 16:22:28 INFO  org.apache.coyote.http11.Http11NioProtocol [Initializing ProtocolHandler ["http-nio-8086"]]
+2021-02-22 16:22:28 INFO  org.apache.catalina.core.StandardService [Starting service [Tomcat]]
+2021-02-22 16:22:28 INFO  org.apache.catalina.core.StandardEngine [Starting Servlet engine: [Apache Tomcat/9.0.39]]
+2021-02-22 16:22:28 INFO  org.apache.catalina.core.AprLifecycleListener [Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].]
+2021-02-22 16:22:28 INFO  org.apache.catalina.core.AprLifecycleListener [APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].]
+2021-02-22 16:22:28 INFO  org.apache.catalina.core.AprLifecycleListener [APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]]
+2021-02-22 16:22:28 INFO  org.apache.catalina.core.AprLifecycleListener [OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]]
+2021-02-22 16:22:28 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Initializing Spring embedded WebApplicationContext]
+2021-02-22 16:22:28 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [Root WebApplicationContext: initialization completed in 1707 ms]
+2021-02-22 16:22:29 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Initializing ExecutorService 'applicationTaskExecutor']
+2021-02-22 16:22:29 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [LiveReload server is running on port 35729]
+2021-02-22 16:22:29 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [Initializing ExecutorService 'taskScheduler']
+2021-02-22 16:22:29 INFO  org.apache.coyote.http11.Http11NioProtocol [Starting ProtocolHandler ["https-openssl-nio-8088"]]
+2021-02-22 16:22:29 INFO  org.apache.coyote.http11.Http11NioProtocol [Starting ProtocolHandler ["http-nio-8086"]]
+2021-02-22 16:22:29 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [Tomcat started on port(s): 8088 (https) 8086 (http) with context path '']
+2021-02-22 16:22:29 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [Context refreshed]
+2021-02-22 16:22:29 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [Found 1 custom documentation plugin(s)]
+2021-02-22 16:22:29 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [Scanning for api listing references]
+2021-02-22 16:22:29 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [Generating unique operation named: getByIdUsingGET_1]
+2021-02-22 16:22:29 INFO  com.xietian.graduated.GraduatedApplication [Started GraduatedApplication in 3.922 seconds (JVM running for 5.767)]
+2021-02-22 16:22:34 INFO  com.zaxxer.hikari.HikariDataSource [HikariPool-1 - Starting...]
+2021-02-22 16:22:34 INFO  com.zaxxer.hikari.HikariDataSource [HikariPool-1 - Start completed.]
+2021-02-22 16:23:55 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Initializing Spring DispatcherServlet 'dispatcherServlet']
+2021-02-22 16:23:55 INFO  org.springframework.web.servlet.DispatcherServlet [Initializing Servlet 'dispatcherServlet']
+2021-02-22 16:23:55 INFO  org.springframework.web.servlet.DispatcherServlet [Completed initialization in 1 ms]
+2021-02-22 16:43:52 INFO  org.hibernate.validator.internal.util.Version [HV000001: Hibernate Validator 5.4.1.Final]
+2021-02-22 16:43:52 INFO  com.xietian.graduated.GraduatedApplication [Starting GraduatedApplication using Java 1.8.0_261 on DESKTOP-D50U990 with PID 18028 (D:\java\IntelliJ IDEA 2017.2.2\project\graduated\target\classes started by xt111 in D:\java\IntelliJ IDEA 2017.2.2\project\graduated)]
+2021-02-22 16:43:52 INFO  com.xietian.graduated.GraduatedApplication [No active profile set, falling back to default profiles: default]
+2021-02-22 16:43:52 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable]
+2021-02-22 16:43:52 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG']
+2021-02-22 16:43:53 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Multiple Spring Data modules found, entering strict repository configuration mode!]
+2021-02-22 16:43:53 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Bootstrapping Spring Data Redis repositories in DEFAULT mode.]
+2021-02-22 16:43:53 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.]
+2021-02-22 16:43:53 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [Tomcat initialized with port(s): 8088 (https) 8086 (http)]
+2021-02-22 16:43:53 INFO  org.apache.coyote.http11.Http11NioProtocol [Initializing ProtocolHandler ["https-openssl-nio-8088"]]
+2021-02-22 16:43:53 INFO  org.apache.coyote.http11.Http11NioProtocol [Initializing ProtocolHandler ["http-nio-8086"]]
+2021-02-22 16:43:53 INFO  org.apache.catalina.core.StandardService [Starting service [Tomcat]]
+2021-02-22 16:43:53 INFO  org.apache.catalina.core.StandardEngine [Starting Servlet engine: [Apache Tomcat/9.0.39]]
+2021-02-22 16:43:53 INFO  org.apache.catalina.core.AprLifecycleListener [Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].]
+2021-02-22 16:43:53 INFO  org.apache.catalina.core.AprLifecycleListener [APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].]
+2021-02-22 16:43:53 INFO  org.apache.catalina.core.AprLifecycleListener [APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]]
+2021-02-22 16:43:53 INFO  org.apache.catalina.core.AprLifecycleListener [OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]]
+2021-02-22 16:43:53 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Initializing Spring embedded WebApplicationContext]
+2021-02-22 16:43:53 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [Root WebApplicationContext: initialization completed in 1094 ms]
+2021-02-22 16:43:54 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Initializing ExecutorService 'applicationTaskExecutor']
+2021-02-22 16:43:54 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [LiveReload server is running on port 35729]
+2021-02-22 16:43:54 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [Initializing ExecutorService 'taskScheduler']
+2021-02-22 16:43:54 INFO  org.apache.coyote.http11.Http11NioProtocol [Starting ProtocolHandler ["https-openssl-nio-8088"]]
+2021-02-22 16:43:54 INFO  org.apache.coyote.http11.Http11NioProtocol [Starting ProtocolHandler ["http-nio-8086"]]
+2021-02-22 16:43:54 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [Tomcat started on port(s): 8088 (https) 8086 (http) with context path '']
+2021-02-22 16:43:54 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [Context refreshed]
+2021-02-22 16:43:54 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [Found 1 custom documentation plugin(s)]
+2021-02-22 16:43:54 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [Scanning for api listing references]
+2021-02-22 16:43:54 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [Generating unique operation named: getByIdUsingGET_1]
+2021-02-22 16:43:54 INFO  com.xietian.graduated.GraduatedApplication [Started GraduatedApplication in 2.703 seconds (JVM running for 4.192)]
+2021-02-22 16:43:59 INFO  com.zaxxer.hikari.HikariDataSource [HikariPool-1 - Starting...]
+2021-02-22 16:43:59 INFO  com.zaxxer.hikari.HikariDataSource [HikariPool-1 - Start completed.]
+2021-02-22 16:44:15 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Initializing Spring DispatcherServlet 'dispatcherServlet']
+2021-02-22 16:44:15 INFO  org.springframework.web.servlet.DispatcherServlet [Initializing Servlet 'dispatcherServlet']
+2021-02-22 16:44:15 INFO  org.springframework.web.servlet.DispatcherServlet [Completed initialization in 2 ms]
+2021-02-22 16:50:36 INFO  org.hibernate.validator.internal.util.Version [HV000001: Hibernate Validator 5.4.1.Final]
+2021-02-22 16:50:36 INFO  com.xietian.graduated.GraduatedApplication [Starting GraduatedApplication using Java 1.8.0_261 on DESKTOP-D50U990 with PID 10528 (D:\java\IntelliJ IDEA 2017.2.2\project\graduated\target\classes started by xt111 in D:\java\IntelliJ IDEA 2017.2.2\project\graduated)]
+2021-02-22 16:50:36 INFO  com.xietian.graduated.GraduatedApplication [No active profile set, falling back to default profiles: default]
+2021-02-22 16:50:36 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable]
+2021-02-22 16:50:36 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG']
+2021-02-22 16:50:37 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Multiple Spring Data modules found, entering strict repository configuration mode!]
+2021-02-22 16:50:37 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Bootstrapping Spring Data Redis repositories in DEFAULT mode.]
+2021-02-22 16:50:37 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.]
+2021-02-22 16:50:37 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [Tomcat initialized with port(s): 8088 (https) 8086 (http)]
+2021-02-22 16:50:37 INFO  org.apache.coyote.http11.Http11NioProtocol [Initializing ProtocolHandler ["https-openssl-nio-8088"]]
+2021-02-22 16:50:37 INFO  org.apache.coyote.http11.Http11NioProtocol [Initializing ProtocolHandler ["http-nio-8086"]]
+2021-02-22 16:50:37 INFO  org.apache.catalina.core.StandardService [Starting service [Tomcat]]
+2021-02-22 16:50:37 INFO  org.apache.catalina.core.StandardEngine [Starting Servlet engine: [Apache Tomcat/9.0.39]]
+2021-02-22 16:50:37 INFO  org.apache.catalina.core.AprLifecycleListener [Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].]
+2021-02-22 16:50:37 INFO  org.apache.catalina.core.AprLifecycleListener [APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].]
+2021-02-22 16:50:37 INFO  org.apache.catalina.core.AprLifecycleListener [APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]]
+2021-02-22 16:50:37 INFO  org.apache.catalina.core.AprLifecycleListener [OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]]
+2021-02-22 16:50:37 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Initializing Spring embedded WebApplicationContext]
+2021-02-22 16:50:37 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [Root WebApplicationContext: initialization completed in 1068 ms]
+2021-02-22 16:50:38 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Initializing ExecutorService 'applicationTaskExecutor']
+2021-02-22 16:50:38 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [LiveReload server is running on port 35729]
+2021-02-22 16:50:38 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [Initializing ExecutorService 'taskScheduler']
+2021-02-22 16:50:38 INFO  org.apache.coyote.http11.Http11NioProtocol [Starting ProtocolHandler ["https-openssl-nio-8088"]]
+2021-02-22 16:50:38 INFO  org.apache.coyote.http11.Http11NioProtocol [Starting ProtocolHandler ["http-nio-8086"]]
+2021-02-22 16:50:38 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [Tomcat started on port(s): 8088 (https) 8086 (http) with context path '']
+2021-02-22 16:50:38 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [Context refreshed]
+2021-02-22 16:50:38 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [Found 1 custom documentation plugin(s)]
+2021-02-22 16:50:38 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [Scanning for api listing references]
+2021-02-22 16:50:38 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [Generating unique operation named: getByIdUsingGET_1]
+2021-02-22 16:50:38 INFO  com.xietian.graduated.GraduatedApplication [Started GraduatedApplication in 2.621 seconds (JVM running for 4.065)]
+2021-02-22 16:50:43 INFO  com.zaxxer.hikari.HikariDataSource [HikariPool-1 - Starting...]
+2021-02-22 16:50:43 INFO  com.zaxxer.hikari.HikariDataSource [HikariPool-1 - Start completed.]
+2021-02-22 16:50:50 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Initializing Spring DispatcherServlet 'dispatcherServlet']
+2021-02-22 16:50:50 INFO  org.springframework.web.servlet.DispatcherServlet [Initializing Servlet 'dispatcherServlet']
+2021-02-22 16:50:50 INFO  org.springframework.web.servlet.DispatcherServlet [Completed initialization in 1 ms]
+2021-02-22 16:57:04 INFO  com.xietian.graduated.GraduatedApplication [Starting GraduatedApplication using Java 1.8.0_261 on DESKTOP-D50U990 with PID 14152 (D:\java\IntelliJ IDEA 2017.2.2\project\graduated\target\classes started by xt111 in D:\java\IntelliJ IDEA 2017.2.2\project\graduated)]
+2021-02-22 16:57:04 INFO  org.hibernate.validator.internal.util.Version [HV000001: Hibernate Validator 5.4.1.Final]
+2021-02-22 16:57:04 INFO  com.xietian.graduated.GraduatedApplication [No active profile set, falling back to default profiles: default]
+2021-02-22 16:57:04 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable]
+2021-02-22 16:57:04 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG']
+2021-02-22 16:57:05 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Multiple Spring Data modules found, entering strict repository configuration mode!]
+2021-02-22 16:57:05 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Bootstrapping Spring Data Redis repositories in DEFAULT mode.]
+2021-02-22 16:57:05 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.]
+2021-02-22 16:57:05 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [Tomcat initialized with port(s): 8088 (https) 8086 (http)]
+2021-02-22 16:57:05 INFO  org.apache.coyote.http11.Http11NioProtocol [Initializing ProtocolHandler ["https-openssl-nio-8088"]]
+2021-02-22 16:57:05 INFO  org.apache.coyote.http11.Http11NioProtocol [Initializing ProtocolHandler ["http-nio-8086"]]
+2021-02-22 16:57:05 INFO  org.apache.catalina.core.StandardService [Starting service [Tomcat]]
+2021-02-22 16:57:05 INFO  org.apache.catalina.core.StandardEngine [Starting Servlet engine: [Apache Tomcat/9.0.39]]
+2021-02-22 16:57:05 INFO  org.apache.catalina.core.AprLifecycleListener [Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].]
+2021-02-22 16:57:05 INFO  org.apache.catalina.core.AprLifecycleListener [APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].]
+2021-02-22 16:57:05 INFO  org.apache.catalina.core.AprLifecycleListener [APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]]
+2021-02-22 16:57:05 INFO  org.apache.catalina.core.AprLifecycleListener [OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]]
+2021-02-22 16:57:06 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Initializing Spring embedded WebApplicationContext]
+2021-02-22 16:57:06 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [Root WebApplicationContext: initialization completed in 1122 ms]
+2021-02-22 16:57:06 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Initializing ExecutorService 'applicationTaskExecutor']
+2021-02-22 16:57:06 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [LiveReload server is running on port 35729]
+2021-02-22 16:57:06 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [Initializing ExecutorService 'taskScheduler']
+2021-02-22 16:57:06 INFO  org.apache.coyote.http11.Http11NioProtocol [Starting ProtocolHandler ["https-openssl-nio-8088"]]
+2021-02-22 16:57:06 INFO  org.apache.coyote.http11.Http11NioProtocol [Starting ProtocolHandler ["http-nio-8086"]]
+2021-02-22 16:57:06 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [Tomcat started on port(s): 8088 (https) 8086 (http) with context path '']
+2021-02-22 16:57:06 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [Context refreshed]
+2021-02-22 16:57:06 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [Found 1 custom documentation plugin(s)]
+2021-02-22 16:57:06 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [Scanning for api listing references]
+2021-02-22 16:57:07 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [Generating unique operation named: getByIdUsingGET_1]
+2021-02-22 16:57:07 INFO  com.xietian.graduated.GraduatedApplication [Started GraduatedApplication in 2.685 seconds (JVM running for 4.129)]
+2021-02-22 16:57:11 INFO  com.zaxxer.hikari.HikariDataSource [HikariPool-1 - Starting...]
+2021-02-22 16:57:12 INFO  com.zaxxer.hikari.HikariDataSource [HikariPool-1 - Start completed.]
+2021-02-22 16:57:14 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Initializing Spring DispatcherServlet 'dispatcherServlet']
+2021-02-22 16:57:14 INFO  org.springframework.web.servlet.DispatcherServlet [Initializing Servlet 'dispatcherServlet']
+2021-02-22 16:57:14 INFO  org.springframework.web.servlet.DispatcherServlet [Completed initialization in 1 ms]
+2021-02-22 17:30:10 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause]
+java.lang.NullPointerException: null
+	at com.xietian.graduated.service.impl.TicketServiceImpl.getByFidList(TicketServiceImpl.java:59)
+	at com.xietian.graduated.controller.TicketController.getByFidList(TicketController.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:807)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.xietian.graduated.common.config.CorsFilter.doFilter(CorsFilter.java:24)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:667)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-02-22 17:32:33 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause]
+java.lang.NullPointerException: null
+	at com.xietian.graduated.service.impl.TicketServiceImpl.getByFidList(TicketServiceImpl.java:59)
+	at com.xietian.graduated.controller.TicketController.getByFidList(TicketController.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:807)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.xietian.graduated.common.config.CorsFilter.doFilter(CorsFilter.java:24)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:667)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-02-22 17:33:47 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause]
+java.lang.NullPointerException: null
+	at com.xietian.graduated.service.impl.TicketServiceImpl.getByFidList(TicketServiceImpl.java:59)
+	at com.xietian.graduated.controller.TicketController.getByFidList(TicketController.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:807)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.xietian.graduated.common.config.CorsFilter.doFilter(CorsFilter.java:24)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:667)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-02-22 17:38:43 INFO  org.hibernate.validator.internal.util.Version [HV000001: Hibernate Validator 5.4.1.Final]
+2021-02-22 17:38:43 INFO  com.xietian.graduated.GraduatedApplication [Starting GraduatedApplication using Java 1.8.0_261 on DESKTOP-D50U990 with PID 21472 (D:\java\IntelliJ IDEA 2017.2.2\project\graduated\target\classes started by xt111 in D:\java\IntelliJ IDEA 2017.2.2\project\graduated)]
+2021-02-22 17:38:43 INFO  com.xietian.graduated.GraduatedApplication [No active profile set, falling back to default profiles: default]
+2021-02-22 17:38:43 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable]
+2021-02-22 17:38:43 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG']
+2021-02-22 17:38:44 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Multiple Spring Data modules found, entering strict repository configuration mode!]
+2021-02-22 17:38:44 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Bootstrapping Spring Data Redis repositories in DEFAULT mode.]
+2021-02-22 17:38:44 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.]
+2021-02-22 17:38:44 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [Tomcat initialized with port(s): 8088 (https) 8086 (http)]
+2021-02-22 17:38:44 INFO  org.apache.coyote.http11.Http11NioProtocol [Initializing ProtocolHandler ["https-openssl-nio-8088"]]
+2021-02-22 17:38:44 INFO  org.apache.coyote.http11.Http11NioProtocol [Initializing ProtocolHandler ["http-nio-8086"]]
+2021-02-22 17:38:44 INFO  org.apache.catalina.core.StandardService [Starting service [Tomcat]]
+2021-02-22 17:38:44 INFO  org.apache.catalina.core.StandardEngine [Starting Servlet engine: [Apache Tomcat/9.0.39]]
+2021-02-22 17:38:44 INFO  org.apache.catalina.core.AprLifecycleListener [Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].]
+2021-02-22 17:38:44 INFO  org.apache.catalina.core.AprLifecycleListener [APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].]
+2021-02-22 17:38:44 INFO  org.apache.catalina.core.AprLifecycleListener [APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]]
+2021-02-22 17:38:44 INFO  org.apache.catalina.core.AprLifecycleListener [OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]]
+2021-02-22 17:38:44 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Initializing Spring embedded WebApplicationContext]
+2021-02-22 17:38:44 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [Root WebApplicationContext: initialization completed in 1127 ms]
+2021-02-22 17:38:45 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Initializing ExecutorService 'applicationTaskExecutor']
+2021-02-22 17:38:45 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [LiveReload server is running on port 35729]
+2021-02-22 17:38:45 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [Initializing ExecutorService 'taskScheduler']
+2021-02-22 17:38:45 INFO  org.apache.coyote.http11.Http11NioProtocol [Starting ProtocolHandler ["https-openssl-nio-8088"]]
+2021-02-22 17:38:45 INFO  org.apache.coyote.http11.Http11NioProtocol [Starting ProtocolHandler ["http-nio-8086"]]
+2021-02-22 17:38:45 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [Tomcat started on port(s): 8088 (https) 8086 (http) with context path '']
+2021-02-22 17:38:45 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [Context refreshed]
+2021-02-22 17:38:45 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [Found 1 custom documentation plugin(s)]
+2021-02-22 17:38:45 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [Scanning for api listing references]
+2021-02-22 17:38:45 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [Generating unique operation named: getByIdUsingGET_1]
+2021-02-22 17:38:45 INFO  com.xietian.graduated.GraduatedApplication [Started GraduatedApplication in 2.778 seconds (JVM running for 4.282)]
+2021-02-22 17:38:50 INFO  com.zaxxer.hikari.HikariDataSource [HikariPool-1 - Starting...]
+2021-02-22 17:38:50 INFO  com.zaxxer.hikari.HikariDataSource [HikariPool-1 - Start completed.]
+2021-02-22 17:38:51 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Initializing Spring DispatcherServlet 'dispatcherServlet']
+2021-02-22 17:38:51 INFO  org.springframework.web.servlet.DispatcherServlet [Initializing Servlet 'dispatcherServlet']
+2021-02-22 17:38:51 INFO  org.springframework.web.servlet.DispatcherServlet [Completed initialization in 1 ms]
+2021-02-22 17:50:19 INFO  org.hibernate.validator.internal.util.Version [HV000001: Hibernate Validator 5.4.1.Final]
+2021-02-22 17:50:19 INFO  com.xietian.graduated.GraduatedApplication [Starting GraduatedApplication using Java 1.8.0_261 on DESKTOP-D50U990 with PID 11160 (D:\java\IntelliJ IDEA 2017.2.2\project\graduated\target\classes started by xt111 in D:\java\IntelliJ IDEA 2017.2.2\project\graduated)]
+2021-02-22 17:50:19 INFO  com.xietian.graduated.GraduatedApplication [No active profile set, falling back to default profiles: default]
+2021-02-22 17:50:19 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable]
+2021-02-22 17:50:19 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG']
+2021-02-22 17:50:20 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Multiple Spring Data modules found, entering strict repository configuration mode!]
+2021-02-22 17:50:20 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Bootstrapping Spring Data Redis repositories in DEFAULT mode.]
+2021-02-22 17:50:20 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.]
+2021-02-22 17:50:20 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [Tomcat initialized with port(s): 8088 (https) 8086 (http)]
+2021-02-22 17:50:20 INFO  org.apache.coyote.http11.Http11NioProtocol [Initializing ProtocolHandler ["https-openssl-nio-8088"]]
+2021-02-22 17:50:20 INFO  org.apache.coyote.http11.Http11NioProtocol [Initializing ProtocolHandler ["http-nio-8086"]]
+2021-02-22 17:50:20 INFO  org.apache.catalina.core.StandardService [Starting service [Tomcat]]
+2021-02-22 17:50:20 INFO  org.apache.catalina.core.StandardEngine [Starting Servlet engine: [Apache Tomcat/9.0.39]]
+2021-02-22 17:50:20 INFO  org.apache.catalina.core.AprLifecycleListener [Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].]
+2021-02-22 17:50:20 INFO  org.apache.catalina.core.AprLifecycleListener [APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].]
+2021-02-22 17:50:20 INFO  org.apache.catalina.core.AprLifecycleListener [APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]]
+2021-02-22 17:50:20 INFO  org.apache.catalina.core.AprLifecycleListener [OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]]
+2021-02-22 17:50:20 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Initializing Spring embedded WebApplicationContext]
+2021-02-22 17:50:20 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [Root WebApplicationContext: initialization completed in 1115 ms]
+2021-02-22 17:50:21 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Initializing ExecutorService 'applicationTaskExecutor']
+2021-02-22 17:50:21 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [LiveReload server is running on port 35729]
+2021-02-22 17:50:21 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [Initializing ExecutorService 'taskScheduler']
+2021-02-22 17:50:21 INFO  org.apache.coyote.http11.Http11NioProtocol [Starting ProtocolHandler ["https-openssl-nio-8088"]]
+2021-02-22 17:50:21 INFO  org.apache.coyote.http11.Http11NioProtocol [Starting ProtocolHandler ["http-nio-8086"]]
+2021-02-22 17:50:21 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [Tomcat started on port(s): 8088 (https) 8086 (http) with context path '']
+2021-02-22 17:50:21 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [Context refreshed]
+2021-02-22 17:50:21 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [Found 1 custom documentation plugin(s)]
+2021-02-22 17:50:21 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [Scanning for api listing references]
+2021-02-22 17:50:22 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [Generating unique operation named: getByIdUsingGET_1]
+2021-02-22 17:50:22 INFO  com.xietian.graduated.GraduatedApplication [Started GraduatedApplication in 2.793 seconds (JVM running for 4.426)]
+2021-02-22 17:50:26 INFO  com.zaxxer.hikari.HikariDataSource [HikariPool-1 - Starting...]
+2021-02-22 17:50:27 INFO  com.zaxxer.hikari.HikariDataSource [HikariPool-1 - Start completed.]
+2021-02-22 17:50:30 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Initializing Spring DispatcherServlet 'dispatcherServlet']
+2021-02-22 17:50:30 INFO  org.springframework.web.servlet.DispatcherServlet [Initializing Servlet 'dispatcherServlet']
+2021-02-22 17:50:30 INFO  org.springframework.web.servlet.DispatcherServlet [Completed initialization in 1 ms]
+2021-02-22 18:02:26 INFO  org.hibernate.validator.internal.util.Version [HV000001: Hibernate Validator 5.4.1.Final]
+2021-02-22 18:02:26 INFO  com.xietian.graduated.GraduatedApplication [Starting GraduatedApplication using Java 1.8.0_261 on DESKTOP-D50U990 with PID 7344 (D:\java\IntelliJ IDEA 2017.2.2\project\graduated\target\classes started by xt111 in D:\java\IntelliJ IDEA 2017.2.2\project\graduated)]
+2021-02-22 18:02:26 INFO  com.xietian.graduated.GraduatedApplication [No active profile set, falling back to default profiles: default]
+2021-02-22 18:02:26 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable]
+2021-02-22 18:02:26 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG']
+2021-02-22 18:02:27 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Multiple Spring Data modules found, entering strict repository configuration mode!]
+2021-02-22 18:02:27 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Bootstrapping Spring Data Redis repositories in DEFAULT mode.]
+2021-02-22 18:02:27 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.]
+2021-02-22 18:02:27 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [Tomcat initialized with port(s): 8088 (https) 8086 (http)]
+2021-02-22 18:02:27 INFO  org.apache.coyote.http11.Http11NioProtocol [Initializing ProtocolHandler ["https-openssl-nio-8088"]]
+2021-02-22 18:02:27 INFO  org.apache.coyote.http11.Http11NioProtocol [Initializing ProtocolHandler ["http-nio-8086"]]
+2021-02-22 18:02:27 INFO  org.apache.catalina.core.StandardService [Starting service [Tomcat]]
+2021-02-22 18:02:27 INFO  org.apache.catalina.core.StandardEngine [Starting Servlet engine: [Apache Tomcat/9.0.39]]
+2021-02-22 18:02:27 INFO  org.apache.catalina.core.AprLifecycleListener [Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].]
+2021-02-22 18:02:27 INFO  org.apache.catalina.core.AprLifecycleListener [APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].]
+2021-02-22 18:02:27 INFO  org.apache.catalina.core.AprLifecycleListener [APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]]
+2021-02-22 18:02:27 INFO  org.apache.catalina.core.AprLifecycleListener [OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]]
+2021-02-22 18:02:27 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Initializing Spring embedded WebApplicationContext]
+2021-02-22 18:02:27 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [Root WebApplicationContext: initialization completed in 1138 ms]
+2021-02-22 18:02:28 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Initializing ExecutorService 'applicationTaskExecutor']
+2021-02-22 18:02:28 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [LiveReload server is running on port 35729]
+2021-02-22 18:02:28 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [Initializing ExecutorService 'taskScheduler']
+2021-02-22 18:02:28 INFO  org.apache.coyote.http11.Http11NioProtocol [Starting ProtocolHandler ["https-openssl-nio-8088"]]
+2021-02-22 18:02:28 INFO  org.apache.coyote.http11.Http11NioProtocol [Starting ProtocolHandler ["http-nio-8086"]]
+2021-02-22 18:02:28 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [Tomcat started on port(s): 8088 (https) 8086 (http) with context path '']
+2021-02-22 18:02:28 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [Context refreshed]
+2021-02-22 18:02:28 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [Found 1 custom documentation plugin(s)]
+2021-02-22 18:02:28 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [Scanning for api listing references]
+2021-02-22 18:02:28 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [Generating unique operation named: getByIdUsingGET_1]
+2021-02-22 18:02:28 INFO  com.xietian.graduated.GraduatedApplication [Started GraduatedApplication in 2.801 seconds (JVM running for 4.337)]
+2021-02-22 18:02:33 INFO  com.zaxxer.hikari.HikariDataSource [HikariPool-1 - Starting...]
+2021-02-22 18:02:33 INFO  com.zaxxer.hikari.HikariDataSource [HikariPool-1 - Start completed.]
+2021-02-22 18:02:39 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Initializing Spring DispatcherServlet 'dispatcherServlet']
+2021-02-22 18:02:39 INFO  org.springframework.web.servlet.DispatcherServlet [Initializing Servlet 'dispatcherServlet']
+2021-02-22 18:02:39 INFO  org.springframework.web.servlet.DispatcherServlet [Completed initialization in 1 ms]
+2021-02-22 18:03:50 INFO  org.hibernate.validator.internal.util.Version [HV000001: Hibernate Validator 5.4.1.Final]
+2021-02-22 18:03:50 INFO  com.xietian.graduated.GraduatedApplication [Starting GraduatedApplication using Java 1.8.0_261 on DESKTOP-D50U990 with PID 21060 (D:\java\IntelliJ IDEA 2017.2.2\project\graduated\target\classes started by xt111 in D:\java\IntelliJ IDEA 2017.2.2\project\graduated)]
+2021-02-22 18:03:50 INFO  com.xietian.graduated.GraduatedApplication [No active profile set, falling back to default profiles: default]
+2021-02-22 18:03:50 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable]
+2021-02-22 18:03:50 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG']
+2021-02-22 18:03:50 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Multiple Spring Data modules found, entering strict repository configuration mode!]
+2021-02-22 18:03:50 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Bootstrapping Spring Data Redis repositories in DEFAULT mode.]
+2021-02-22 18:03:50 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.]
+2021-02-22 18:03:51 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [Tomcat initialized with port(s): 8088 (https) 8086 (http)]
+2021-02-22 18:03:51 INFO  org.apache.coyote.http11.Http11NioProtocol [Initializing ProtocolHandler ["https-openssl-nio-8088"]]
+2021-02-22 18:03:51 INFO  org.apache.coyote.http11.Http11NioProtocol [Initializing ProtocolHandler ["http-nio-8086"]]
+2021-02-22 18:03:51 INFO  org.apache.catalina.core.StandardService [Starting service [Tomcat]]
+2021-02-22 18:03:51 INFO  org.apache.catalina.core.StandardEngine [Starting Servlet engine: [Apache Tomcat/9.0.39]]
+2021-02-22 18:03:51 INFO  org.apache.catalina.core.AprLifecycleListener [Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].]
+2021-02-22 18:03:51 INFO  org.apache.catalina.core.AprLifecycleListener [APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].]
+2021-02-22 18:03:51 INFO  org.apache.catalina.core.AprLifecycleListener [APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]]
+2021-02-22 18:03:51 INFO  org.apache.catalina.core.AprLifecycleListener [OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]]
+2021-02-22 18:03:51 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Initializing Spring embedded WebApplicationContext]
+2021-02-22 18:03:51 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [Root WebApplicationContext: initialization completed in 1127 ms]
+2021-02-22 18:03:52 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Initializing ExecutorService 'applicationTaskExecutor']
+2021-02-22 18:03:52 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [LiveReload server is running on port 35729]
+2021-02-22 18:03:52 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [Initializing ExecutorService 'taskScheduler']
+2021-02-22 18:03:52 INFO  org.apache.coyote.http11.Http11NioProtocol [Starting ProtocolHandler ["https-openssl-nio-8088"]]
+2021-02-22 18:03:52 INFO  org.apache.coyote.http11.Http11NioProtocol [Starting ProtocolHandler ["http-nio-8086"]]
+2021-02-22 18:03:52 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [Tomcat started on port(s): 8088 (https) 8086 (http) with context path '']
+2021-02-22 18:03:52 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [Context refreshed]
+2021-02-22 18:03:52 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [Found 1 custom documentation plugin(s)]
+2021-02-22 18:03:52 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [Scanning for api listing references]
+2021-02-22 18:03:52 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [Generating unique operation named: getByIdUsingGET_1]
+2021-02-22 18:03:52 INFO  com.xietian.graduated.GraduatedApplication [Started GraduatedApplication in 2.803 seconds (JVM running for 4.313)]
+2021-02-22 18:03:56 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Initializing Spring DispatcherServlet 'dispatcherServlet']
+2021-02-22 18:03:56 INFO  org.springframework.web.servlet.DispatcherServlet [Initializing Servlet 'dispatcherServlet']
+2021-02-22 18:03:56 INFO  org.springframework.web.servlet.DispatcherServlet [Completed initialization in 0 ms]
+2021-02-22 18:03:56 INFO  com.zaxxer.hikari.HikariDataSource [HikariPool-1 - Starting...]
+2021-02-22 18:03:56 INFO  com.zaxxer.hikari.HikariDataSource [HikariPool-1 - Start completed.]
+2021-02-22 18:08:10 INFO  org.hibernate.validator.internal.util.Version [HV000001: Hibernate Validator 5.4.1.Final]
+2021-02-22 18:08:10 INFO  com.xietian.graduated.GraduatedApplication [Starting GraduatedApplication using Java 1.8.0_261 on DESKTOP-D50U990 with PID 8980 (D:\java\IntelliJ IDEA 2017.2.2\project\graduated\target\classes started by xt111 in D:\java\IntelliJ IDEA 2017.2.2\project\graduated)]
+2021-02-22 18:08:10 INFO  com.xietian.graduated.GraduatedApplication [No active profile set, falling back to default profiles: default]
+2021-02-22 18:08:10 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable]
+2021-02-22 18:08:10 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG']
+2021-02-22 18:08:11 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Multiple Spring Data modules found, entering strict repository configuration mode!]
+2021-02-22 18:08:11 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Bootstrapping Spring Data Redis repositories in DEFAULT mode.]
+2021-02-22 18:08:11 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.]
+2021-02-22 18:08:11 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [Tomcat initialized with port(s): 8088 (https) 8086 (http)]
+2021-02-22 18:08:11 INFO  org.apache.coyote.http11.Http11NioProtocol [Initializing ProtocolHandler ["https-openssl-nio-8088"]]
+2021-02-22 18:08:11 INFO  org.apache.coyote.http11.Http11NioProtocol [Initializing ProtocolHandler ["http-nio-8086"]]
+2021-02-22 18:08:12 INFO  org.apache.catalina.core.StandardService [Starting service [Tomcat]]
+2021-02-22 18:08:12 INFO  org.apache.catalina.core.StandardEngine [Starting Servlet engine: [Apache Tomcat/9.0.39]]
+2021-02-22 18:08:12 INFO  org.apache.catalina.core.AprLifecycleListener [Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].]
+2021-02-22 18:08:12 INFO  org.apache.catalina.core.AprLifecycleListener [APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].]
+2021-02-22 18:08:12 INFO  org.apache.catalina.core.AprLifecycleListener [APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]]
+2021-02-22 18:08:12 INFO  org.apache.catalina.core.AprLifecycleListener [OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]]
+2021-02-22 18:08:12 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Initializing Spring embedded WebApplicationContext]
+2021-02-22 18:08:12 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [Root WebApplicationContext: initialization completed in 1120 ms]
+2021-02-22 18:08:12 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Initializing ExecutorService 'applicationTaskExecutor']
+2021-02-22 18:08:12 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [LiveReload server is running on port 35729]
+2021-02-22 18:08:12 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [Initializing ExecutorService 'taskScheduler']
+2021-02-22 18:08:13 INFO  org.apache.coyote.http11.Http11NioProtocol [Starting ProtocolHandler ["https-openssl-nio-8088"]]
+2021-02-22 18:08:13 INFO  org.apache.coyote.http11.Http11NioProtocol [Starting ProtocolHandler ["http-nio-8086"]]
+2021-02-22 18:08:13 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [Tomcat started on port(s): 8088 (https) 8086 (http) with context path '']
+2021-02-22 18:08:13 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [Context refreshed]
+2021-02-22 18:08:13 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [Found 1 custom documentation plugin(s)]
+2021-02-22 18:08:13 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [Scanning for api listing references]
+2021-02-22 18:08:13 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [Generating unique operation named: getByIdUsingGET_1]
+2021-02-22 18:08:13 INFO  com.xietian.graduated.GraduatedApplication [Started GraduatedApplication in 2.816 seconds (JVM running for 4.335)]
+2021-02-22 18:08:18 INFO  com.zaxxer.hikari.HikariDataSource [HikariPool-1 - Starting...]
+2021-02-22 18:08:18 INFO  com.zaxxer.hikari.HikariDataSource [HikariPool-1 - Start completed.]
+2021-02-22 18:08:21 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Initializing Spring DispatcherServlet 'dispatcherServlet']
+2021-02-22 18:08:21 INFO  org.springframework.web.servlet.DispatcherServlet [Initializing Servlet 'dispatcherServlet']
+2021-02-22 18:08:21 INFO  org.springframework.web.servlet.DispatcherServlet [Completed initialization in 1 ms]
+2021-02-22 18:09:11 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause]
+java.lang.NullPointerException: null
+	at com.xietian.graduated.service.impl.FlightServiceImpl.selectForPage(FlightServiceImpl.java:116)
+	at com.xietian.graduated.controller.FlightController.getForPage(FlightController.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:807)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.xietian.graduated.common.config.CorsFilter.doFilter(CorsFilter.java:24)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:667)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-02-22 18:09:35 INFO  org.hibernate.validator.internal.util.Version [HV000001: Hibernate Validator 5.4.1.Final]
+2021-02-22 18:09:35 INFO  com.xietian.graduated.GraduatedApplication [Starting GraduatedApplication using Java 1.8.0_261 on DESKTOP-D50U990 with PID 8960 (D:\java\IntelliJ IDEA 2017.2.2\project\graduated\target\classes started by xt111 in D:\java\IntelliJ IDEA 2017.2.2\project\graduated)]
+2021-02-22 18:09:35 INFO  com.xietian.graduated.GraduatedApplication [No active profile set, falling back to default profiles: default]
+2021-02-22 18:09:35 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable]
+2021-02-22 18:09:35 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG']
+2021-02-22 18:09:36 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Multiple Spring Data modules found, entering strict repository configuration mode!]
+2021-02-22 18:09:36 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Bootstrapping Spring Data Redis repositories in DEFAULT mode.]
+2021-02-22 18:09:36 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.]
+2021-02-22 18:09:36 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [Tomcat initialized with port(s): 8088 (https) 8086 (http)]
+2021-02-22 18:09:36 INFO  org.apache.coyote.http11.Http11NioProtocol [Initializing ProtocolHandler ["https-openssl-nio-8088"]]
+2021-02-22 18:09:36 INFO  org.apache.coyote.http11.Http11NioProtocol [Initializing ProtocolHandler ["http-nio-8086"]]
+2021-02-22 18:09:36 INFO  org.apache.catalina.core.StandardService [Starting service [Tomcat]]
+2021-02-22 18:09:36 INFO  org.apache.catalina.core.StandardEngine [Starting Servlet engine: [Apache Tomcat/9.0.39]]
+2021-02-22 18:09:36 INFO  org.apache.catalina.core.AprLifecycleListener [Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].]
+2021-02-22 18:09:36 INFO  org.apache.catalina.core.AprLifecycleListener [APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].]
+2021-02-22 18:09:36 INFO  org.apache.catalina.core.AprLifecycleListener [APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]]
+2021-02-22 18:09:36 INFO  org.apache.catalina.core.AprLifecycleListener [OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]]
+2021-02-22 18:09:36 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Initializing Spring embedded WebApplicationContext]
+2021-02-22 18:09:36 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [Root WebApplicationContext: initialization completed in 1118 ms]
+2021-02-22 18:09:37 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Initializing ExecutorService 'applicationTaskExecutor']
+2021-02-22 18:09:37 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [LiveReload server is running on port 35729]
+2021-02-22 18:09:37 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [Initializing ExecutorService 'taskScheduler']
+2021-02-22 18:09:37 INFO  org.apache.coyote.http11.Http11NioProtocol [Starting ProtocolHandler ["https-openssl-nio-8088"]]
+2021-02-22 18:09:37 INFO  org.apache.coyote.http11.Http11NioProtocol [Starting ProtocolHandler ["http-nio-8086"]]
+2021-02-22 18:09:37 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [Tomcat started on port(s): 8088 (https) 8086 (http) with context path '']
+2021-02-22 18:09:37 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [Context refreshed]
+2021-02-22 18:09:37 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [Found 1 custom documentation plugin(s)]
+2021-02-22 18:09:37 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [Scanning for api listing references]
+2021-02-22 18:09:38 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [Generating unique operation named: getByIdUsingGET_1]
+2021-02-22 18:09:38 INFO  com.xietian.graduated.GraduatedApplication [Started GraduatedApplication in 2.805 seconds (JVM running for 4.313)]
+2021-02-22 18:09:42 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Initializing Spring DispatcherServlet 'dispatcherServlet']
+2021-02-22 18:09:42 INFO  org.springframework.web.servlet.DispatcherServlet [Initializing Servlet 'dispatcherServlet']
+2021-02-22 18:09:42 INFO  org.springframework.web.servlet.DispatcherServlet [Completed initialization in 1 ms]
+2021-02-22 18:09:42 INFO  com.zaxxer.hikari.HikariDataSource [HikariPool-1 - Starting...]
+2021-02-22 18:09:43 INFO  com.zaxxer.hikari.HikariDataSource [HikariPool-1 - Start completed.]
+2021-02-22 18:10:12 INFO  org.hibernate.validator.internal.util.Version [HV000001: Hibernate Validator 5.4.1.Final]
+2021-02-22 18:10:12 INFO  com.xietian.graduated.GraduatedApplication [Starting GraduatedApplication using Java 1.8.0_261 on DESKTOP-D50U990 with PID 20592 (D:\java\IntelliJ IDEA 2017.2.2\project\graduated\target\classes started by xt111 in D:\java\IntelliJ IDEA 2017.2.2\project\graduated)]
+2021-02-22 18:10:12 INFO  com.xietian.graduated.GraduatedApplication [No active profile set, falling back to default profiles: default]
+2021-02-22 18:10:12 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable]
+2021-02-22 18:10:12 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG']
+2021-02-22 18:10:12 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Multiple Spring Data modules found, entering strict repository configuration mode!]
+2021-02-22 18:10:12 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Bootstrapping Spring Data Redis repositories in DEFAULT mode.]
+2021-02-22 18:10:12 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.]
+2021-02-22 18:10:13 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [Tomcat initialized with port(s): 8088 (https) 8086 (http)]
+2021-02-22 18:10:13 INFO  org.apache.coyote.http11.Http11NioProtocol [Initializing ProtocolHandler ["https-openssl-nio-8088"]]
+2021-02-22 18:10:13 INFO  org.apache.coyote.http11.Http11NioProtocol [Initializing ProtocolHandler ["http-nio-8086"]]
+2021-02-22 18:10:13 INFO  org.apache.catalina.core.StandardService [Starting service [Tomcat]]
+2021-02-22 18:10:13 INFO  org.apache.catalina.core.StandardEngine [Starting Servlet engine: [Apache Tomcat/9.0.39]]
+2021-02-22 18:10:13 INFO  org.apache.catalina.core.AprLifecycleListener [Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].]
+2021-02-22 18:10:13 INFO  org.apache.catalina.core.AprLifecycleListener [APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].]
+2021-02-22 18:10:13 INFO  org.apache.catalina.core.AprLifecycleListener [APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]]
+2021-02-22 18:10:13 INFO  org.apache.catalina.core.AprLifecycleListener [OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]]
+2021-02-22 18:10:13 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Initializing Spring embedded WebApplicationContext]
+2021-02-22 18:10:13 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [Root WebApplicationContext: initialization completed in 1176 ms]
+2021-02-22 18:10:14 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Initializing ExecutorService 'applicationTaskExecutor']
+2021-02-22 18:10:14 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [LiveReload server is running on port 35729]
+2021-02-22 18:10:14 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [Initializing ExecutorService 'taskScheduler']
+2021-02-22 18:10:14 INFO  org.apache.coyote.http11.Http11NioProtocol [Starting ProtocolHandler ["https-openssl-nio-8088"]]
+2021-02-22 18:10:14 INFO  org.apache.coyote.http11.Http11NioProtocol [Starting ProtocolHandler ["http-nio-8086"]]
+2021-02-22 18:10:14 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [Tomcat started on port(s): 8088 (https) 8086 (http) with context path '']
+2021-02-22 18:10:14 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [Context refreshed]
+2021-02-22 18:10:14 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [Found 1 custom documentation plugin(s)]
+2021-02-22 18:10:14 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [Scanning for api listing references]
+2021-02-22 18:10:14 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [Generating unique operation named: getByIdUsingGET_1]
+2021-02-22 18:10:14 INFO  com.xietian.graduated.GraduatedApplication [Started GraduatedApplication in 3.002 seconds (JVM running for 4.57)]
+2021-02-22 18:10:19 INFO  com.zaxxer.hikari.HikariDataSource [HikariPool-1 - Starting...]
+2021-02-22 18:10:19 INFO  com.zaxxer.hikari.HikariDataSource [HikariPool-1 - Start completed.]
+2021-02-22 18:10:24 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Initializing Spring DispatcherServlet 'dispatcherServlet']
+2021-02-22 18:10:24 INFO  org.springframework.web.servlet.DispatcherServlet [Initializing Servlet 'dispatcherServlet']
+2021-02-22 18:10:24 INFO  org.springframework.web.servlet.DispatcherServlet [Completed initialization in 1 ms]
+2021-02-22 18:10:47 INFO  org.hibernate.validator.internal.util.Version [HV000001: Hibernate Validator 5.4.1.Final]
+2021-02-22 18:10:47 INFO  com.xietian.graduated.GraduatedApplication [Starting GraduatedApplication using Java 1.8.0_261 on DESKTOP-D50U990 with PID 19996 (D:\java\IntelliJ IDEA 2017.2.2\project\graduated\target\classes started by xt111 in D:\java\IntelliJ IDEA 2017.2.2\project\graduated)]
+2021-02-22 18:10:47 INFO  com.xietian.graduated.GraduatedApplication [No active profile set, falling back to default profiles: default]
+2021-02-22 18:10:47 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable]
+2021-02-22 18:10:47 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG']
+2021-02-22 18:10:47 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Multiple Spring Data modules found, entering strict repository configuration mode!]
+2021-02-22 18:10:47 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Bootstrapping Spring Data Redis repositories in DEFAULT mode.]
+2021-02-22 18:10:47 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.]
+2021-02-22 18:10:48 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [Tomcat initialized with port(s): 8088 (https) 8086 (http)]
+2021-02-22 18:10:48 INFO  org.apache.coyote.http11.Http11NioProtocol [Initializing ProtocolHandler ["https-openssl-nio-8088"]]
+2021-02-22 18:10:48 INFO  org.apache.coyote.http11.Http11NioProtocol [Initializing ProtocolHandler ["http-nio-8086"]]
+2021-02-22 18:10:48 INFO  org.apache.catalina.core.StandardService [Starting service [Tomcat]]
+2021-02-22 18:10:48 INFO  org.apache.catalina.core.StandardEngine [Starting Servlet engine: [Apache Tomcat/9.0.39]]
+2021-02-22 18:10:48 INFO  org.apache.catalina.core.AprLifecycleListener [Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].]
+2021-02-22 18:10:48 INFO  org.apache.catalina.core.AprLifecycleListener [APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].]
+2021-02-22 18:10:48 INFO  org.apache.catalina.core.AprLifecycleListener [APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]]
+2021-02-22 18:10:48 INFO  org.apache.catalina.core.AprLifecycleListener [OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]]
+2021-02-22 18:10:48 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Initializing Spring embedded WebApplicationContext]
+2021-02-22 18:10:48 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [Root WebApplicationContext: initialization completed in 1117 ms]
+2021-02-22 18:10:49 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Initializing ExecutorService 'applicationTaskExecutor']
+2021-02-22 18:10:49 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [LiveReload server is running on port 35729]
+2021-02-22 18:10:49 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [Initializing ExecutorService 'taskScheduler']
+2021-02-22 18:10:49 INFO  org.apache.coyote.http11.Http11NioProtocol [Starting ProtocolHandler ["https-openssl-nio-8088"]]
+2021-02-22 18:10:49 INFO  org.apache.coyote.http11.Http11NioProtocol [Starting ProtocolHandler ["http-nio-8086"]]
+2021-02-22 18:10:49 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [Tomcat started on port(s): 8088 (https) 8086 (http) with context path '']
+2021-02-22 18:10:49 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [Context refreshed]
+2021-02-22 18:10:49 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [Found 1 custom documentation plugin(s)]
+2021-02-22 18:10:49 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [Scanning for api listing references]
+2021-02-22 18:10:49 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [Generating unique operation named: getByIdUsingGET_1]
+2021-02-22 18:10:49 INFO  com.xietian.graduated.GraduatedApplication [Started GraduatedApplication in 2.769 seconds (JVM running for 4.255)]
+2021-02-22 18:10:54 INFO  com.zaxxer.hikari.HikariDataSource [HikariPool-1 - Starting...]
+2021-02-22 18:10:54 INFO  com.zaxxer.hikari.HikariDataSource [HikariPool-1 - Start completed.]
+2021-02-22 18:10:54 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Initializing Spring DispatcherServlet 'dispatcherServlet']
+2021-02-22 18:10:54 INFO  org.springframework.web.servlet.DispatcherServlet [Initializing Servlet 'dispatcherServlet']
+2021-02-22 18:10:54 INFO  org.springframework.web.servlet.DispatcherServlet [Completed initialization in 1 ms]
+2021-02-22 18:12:19 INFO  com.xietian.graduated.GraduatedApplication [Starting GraduatedApplication using Java 1.8.0_261 on DESKTOP-D50U990 with PID 9296 (D:\java\IntelliJ IDEA 2017.2.2\project\graduated\target\classes started by xt111 in D:\java\IntelliJ IDEA 2017.2.2\project\graduated)]
+2021-02-22 18:12:19 INFO  org.hibernate.validator.internal.util.Version [HV000001: Hibernate Validator 5.4.1.Final]
+2021-02-22 18:12:19 INFO  com.xietian.graduated.GraduatedApplication [No active profile set, falling back to default profiles: default]
+2021-02-22 18:12:19 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable]
+2021-02-22 18:12:19 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG']
+2021-02-22 18:12:20 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Multiple Spring Data modules found, entering strict repository configuration mode!]
+2021-02-22 18:12:20 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Bootstrapping Spring Data Redis repositories in DEFAULT mode.]
+2021-02-22 18:12:20 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.]
+2021-02-22 18:12:20 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [Tomcat initialized with port(s): 8088 (https) 8086 (http)]
+2021-02-22 18:12:20 INFO  org.apache.coyote.http11.Http11NioProtocol [Initializing ProtocolHandler ["https-openssl-nio-8088"]]
+2021-02-22 18:12:20 INFO  org.apache.coyote.http11.Http11NioProtocol [Initializing ProtocolHandler ["http-nio-8086"]]
+2021-02-22 18:12:20 INFO  org.apache.catalina.core.StandardService [Starting service [Tomcat]]
+2021-02-22 18:12:20 INFO  org.apache.catalina.core.StandardEngine [Starting Servlet engine: [Apache Tomcat/9.0.39]]
+2021-02-22 18:12:20 INFO  org.apache.catalina.core.AprLifecycleListener [Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].]
+2021-02-22 18:12:20 INFO  org.apache.catalina.core.AprLifecycleListener [APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].]
+2021-02-22 18:12:20 INFO  org.apache.catalina.core.AprLifecycleListener [APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]]
+2021-02-22 18:12:20 INFO  org.apache.catalina.core.AprLifecycleListener [OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]]
+2021-02-22 18:12:20 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Initializing Spring embedded WebApplicationContext]
+2021-02-22 18:12:20 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [Root WebApplicationContext: initialization completed in 1167 ms]
+2021-02-22 18:12:21 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Initializing ExecutorService 'applicationTaskExecutor']
+2021-02-22 18:12:21 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [LiveReload server is running on port 35729]
+2021-02-22 18:12:21 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [Initializing ExecutorService 'taskScheduler']
+2021-02-22 18:12:21 INFO  org.apache.coyote.http11.Http11NioProtocol [Starting ProtocolHandler ["https-openssl-nio-8088"]]
+2021-02-22 18:12:21 INFO  org.apache.coyote.http11.Http11NioProtocol [Starting ProtocolHandler ["http-nio-8086"]]
+2021-02-22 18:12:21 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [Tomcat started on port(s): 8088 (https) 8086 (http) with context path '']
+2021-02-22 18:12:21 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [Context refreshed]
+2021-02-22 18:12:22 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [Found 1 custom documentation plugin(s)]
+2021-02-22 18:12:22 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [Scanning for api listing references]
+2021-02-22 18:12:22 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [Generating unique operation named: getByIdUsingGET_1]
+2021-02-22 18:12:22 INFO  com.xietian.graduated.GraduatedApplication [Started GraduatedApplication in 2.907 seconds (JVM running for 4.495)]
+2021-02-22 18:12:27 INFO  com.zaxxer.hikari.HikariDataSource [HikariPool-1 - Starting...]
+2021-02-22 18:12:27 INFO  com.zaxxer.hikari.HikariDataSource [HikariPool-1 - Start completed.]
+2021-02-22 18:12:55 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Initializing Spring DispatcherServlet 'dispatcherServlet']
+2021-02-22 18:12:55 INFO  org.springframework.web.servlet.DispatcherServlet [Initializing Servlet 'dispatcherServlet']
+2021-02-22 18:12:55 INFO  org.springframework.web.servlet.DispatcherServlet [Completed initialization in 1 ms]
+2021-02-22 18:15:24 INFO  com.xietian.graduated.GraduatedApplication [Starting GraduatedApplication using Java 1.8.0_261 on DESKTOP-D50U990 with PID 19944 (D:\java\IntelliJ IDEA 2017.2.2\project\graduated\target\classes started by xt111 in D:\java\IntelliJ IDEA 2017.2.2\project\graduated)]
+2021-02-22 18:15:24 INFO  com.xietian.graduated.GraduatedApplication [No active profile set, falling back to default profiles: default]
+2021-02-22 18:15:24 INFO  org.hibernate.validator.internal.util.Version [HV000001: Hibernate Validator 5.4.1.Final]
+2021-02-22 18:15:24 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable]
+2021-02-22 18:15:24 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG']
+2021-02-22 18:15:24 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Multiple Spring Data modules found, entering strict repository configuration mode!]
+2021-02-22 18:15:24 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Bootstrapping Spring Data Redis repositories in DEFAULT mode.]
+2021-02-22 18:15:24 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.]
+2021-02-22 18:15:25 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [Tomcat initialized with port(s): 8088 (https) 8086 (http)]
+2021-02-22 18:15:25 INFO  org.apache.coyote.http11.Http11NioProtocol [Initializing ProtocolHandler ["https-openssl-nio-8088"]]
+2021-02-22 18:15:25 INFO  org.apache.coyote.http11.Http11NioProtocol [Initializing ProtocolHandler ["http-nio-8086"]]
+2021-02-22 18:15:25 INFO  org.apache.catalina.core.StandardService [Starting service [Tomcat]]
+2021-02-22 18:15:25 INFO  org.apache.catalina.core.StandardEngine [Starting Servlet engine: [Apache Tomcat/9.0.39]]
+2021-02-22 18:15:25 INFO  org.apache.catalina.core.AprLifecycleListener [Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].]
+2021-02-22 18:15:25 INFO  org.apache.catalina.core.AprLifecycleListener [APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].]
+2021-02-22 18:15:25 INFO  org.apache.catalina.core.AprLifecycleListener [APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]]
+2021-02-22 18:15:25 INFO  org.apache.catalina.core.AprLifecycleListener [OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]]
+2021-02-22 18:15:25 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Initializing Spring embedded WebApplicationContext]
+2021-02-22 18:15:25 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [Root WebApplicationContext: initialization completed in 1191 ms]
+2021-02-22 18:15:26 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Initializing ExecutorService 'applicationTaskExecutor']
+2021-02-22 18:15:26 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [LiveReload server is running on port 35729]
+2021-02-22 18:15:26 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [Initializing ExecutorService 'taskScheduler']
+2021-02-22 18:15:26 INFO  org.apache.coyote.http11.Http11NioProtocol [Starting ProtocolHandler ["https-openssl-nio-8088"]]
+2021-02-22 18:15:26 INFO  org.apache.coyote.http11.Http11NioProtocol [Starting ProtocolHandler ["http-nio-8086"]]
+2021-02-22 18:15:26 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [Tomcat started on port(s): 8088 (https) 8086 (http) with context path '']
+2021-02-22 18:15:26 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [Context refreshed]
+2021-02-22 18:15:26 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [Found 1 custom documentation plugin(s)]
+2021-02-22 18:15:26 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [Scanning for api listing references]
+2021-02-22 18:15:26 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [Generating unique operation named: getByIdUsingGET_1]
+2021-02-22 18:15:26 INFO  com.xietian.graduated.GraduatedApplication [Started GraduatedApplication in 2.872 seconds (JVM running for 4.382)]
+2021-02-22 18:15:31 INFO  com.zaxxer.hikari.HikariDataSource [HikariPool-1 - Starting...]
+2021-02-22 18:15:31 INFO  com.zaxxer.hikari.HikariDataSource [HikariPool-1 - Start completed.]
+2021-02-22 18:15:35 INFO  org.hibernate.validator.internal.util.Version [HV000001: Hibernate Validator 5.4.1.Final]
+2021-02-22 18:15:35 INFO  com.xietian.graduated.GraduatedApplication [Starting GraduatedApplication using Java 1.8.0_261 on DESKTOP-D50U990 with PID 12908 (D:\java\IntelliJ IDEA 2017.2.2\project\graduated\target\classes started by xt111 in D:\java\IntelliJ IDEA 2017.2.2\project\graduated)]
+2021-02-22 18:15:35 INFO  com.xietian.graduated.GraduatedApplication [No active profile set, falling back to default profiles: default]
+2021-02-22 18:15:35 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable]
+2021-02-22 18:15:35 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG']
+2021-02-22 18:15:35 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Multiple Spring Data modules found, entering strict repository configuration mode!]
+2021-02-22 18:15:35 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Bootstrapping Spring Data Redis repositories in DEFAULT mode.]
+2021-02-22 18:15:35 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.]
+2021-02-22 18:15:36 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [Tomcat initialized with port(s): 8088 (https) 8086 (http)]
+2021-02-22 18:15:36 INFO  org.apache.coyote.http11.Http11NioProtocol [Initializing ProtocolHandler ["https-openssl-nio-8088"]]
+2021-02-22 18:15:36 INFO  org.apache.coyote.http11.Http11NioProtocol [Initializing ProtocolHandler ["http-nio-8086"]]
+2021-02-22 18:15:36 INFO  org.apache.catalina.core.StandardService [Starting service [Tomcat]]
+2021-02-22 18:15:36 INFO  org.apache.catalina.core.StandardEngine [Starting Servlet engine: [Apache Tomcat/9.0.39]]
+2021-02-22 18:15:36 INFO  org.apache.catalina.core.AprLifecycleListener [Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].]
+2021-02-22 18:15:36 INFO  org.apache.catalina.core.AprLifecycleListener [APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].]
+2021-02-22 18:15:36 INFO  org.apache.catalina.core.AprLifecycleListener [APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]]
+2021-02-22 18:15:36 INFO  org.apache.catalina.core.AprLifecycleListener [OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]]
+2021-02-22 18:15:36 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Initializing Spring embedded WebApplicationContext]
+2021-02-22 18:15:36 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [Root WebApplicationContext: initialization completed in 1152 ms]
+2021-02-22 18:15:37 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Initializing ExecutorService 'applicationTaskExecutor']
+2021-02-22 18:15:37 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [LiveReload server is running on port 35729]
+2021-02-22 18:15:37 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [Initializing ExecutorService 'taskScheduler']
+2021-02-22 18:15:37 INFO  org.apache.coyote.http11.Http11NioProtocol [Starting ProtocolHandler ["https-openssl-nio-8088"]]
+2021-02-22 18:15:37 INFO  org.apache.coyote.http11.Http11NioProtocol [Starting ProtocolHandler ["http-nio-8086"]]
+2021-02-22 18:15:37 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [Tomcat started on port(s): 8088 (https) 8086 (http) with context path '']
+2021-02-22 18:15:37 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [Context refreshed]
+2021-02-22 18:15:37 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [Found 1 custom documentation plugin(s)]
+2021-02-22 18:15:37 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [Scanning for api listing references]
+2021-02-22 18:15:37 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [Generating unique operation named: getByIdUsingGET_1]
+2021-02-22 18:15:37 INFO  com.xietian.graduated.GraduatedApplication [Started GraduatedApplication in 2.963 seconds (JVM running for 4.534)]
+2021-02-22 18:15:42 INFO  com.zaxxer.hikari.HikariDataSource [HikariPool-1 - Starting...]
+2021-02-22 18:15:42 INFO  com.zaxxer.hikari.HikariDataSource [HikariPool-1 - Start completed.]
+2021-02-22 18:17:16 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Initializing Spring DispatcherServlet 'dispatcherServlet']
+2021-02-22 18:17:16 INFO  org.springframework.web.servlet.DispatcherServlet [Initializing Servlet 'dispatcherServlet']
+2021-02-22 18:17:16 INFO  org.springframework.web.servlet.DispatcherServlet [Completed initialization in 1 ms]
+2021-02-22 18:26:29 INFO  org.hibernate.validator.internal.util.Version [HV000001: Hibernate Validator 5.4.1.Final]
+2021-02-22 18:26:29 INFO  com.xietian.graduated.GraduatedApplication [Starting GraduatedApplication using Java 1.8.0_261 on DESKTOP-D50U990 with PID 16140 (D:\java\IntelliJ IDEA 2017.2.2\project\graduated\target\classes started by xt111 in D:\java\IntelliJ IDEA 2017.2.2\project\graduated)]
+2021-02-22 18:26:29 INFO  com.xietian.graduated.GraduatedApplication [No active profile set, falling back to default profiles: default]
+2021-02-22 18:26:29 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable]
+2021-02-22 18:26:29 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG']
+2021-02-22 18:26:29 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Multiple Spring Data modules found, entering strict repository configuration mode!]
+2021-02-22 18:26:29 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Bootstrapping Spring Data Redis repositories in DEFAULT mode.]
+2021-02-22 18:26:29 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.]
+2021-02-22 18:26:30 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [Tomcat initialized with port(s): 8088 (https) 8086 (http)]
+2021-02-22 18:26:30 INFO  org.apache.coyote.http11.Http11NioProtocol [Initializing ProtocolHandler ["https-openssl-nio-8088"]]
+2021-02-22 18:26:30 INFO  org.apache.coyote.http11.Http11NioProtocol [Initializing ProtocolHandler ["http-nio-8086"]]
+2021-02-22 18:26:30 INFO  org.apache.catalina.core.StandardService [Starting service [Tomcat]]
+2021-02-22 18:26:30 INFO  org.apache.catalina.core.StandardEngine [Starting Servlet engine: [Apache Tomcat/9.0.39]]
+2021-02-22 18:26:30 INFO  org.apache.catalina.core.AprLifecycleListener [Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].]
+2021-02-22 18:26:30 INFO  org.apache.catalina.core.AprLifecycleListener [APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].]
+2021-02-22 18:26:30 INFO  org.apache.catalina.core.AprLifecycleListener [APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]]
+2021-02-22 18:26:30 INFO  org.apache.catalina.core.AprLifecycleListener [OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]]
+2021-02-22 18:26:30 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Initializing Spring embedded WebApplicationContext]
+2021-02-22 18:26:30 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [Root WebApplicationContext: initialization completed in 1162 ms]
+2021-02-22 18:26:31 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Initializing ExecutorService 'applicationTaskExecutor']
+2021-02-22 18:26:31 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [LiveReload server is running on port 35729]
+2021-02-22 18:26:31 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [Initializing ExecutorService 'taskScheduler']
+2021-02-22 18:26:31 INFO  org.apache.coyote.http11.Http11NioProtocol [Starting ProtocolHandler ["https-openssl-nio-8088"]]
+2021-02-22 18:26:31 INFO  org.apache.coyote.http11.Http11NioProtocol [Starting ProtocolHandler ["http-nio-8086"]]
+2021-02-22 18:26:31 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [Tomcat started on port(s): 8088 (https) 8086 (http) with context path '']
+2021-02-22 18:26:31 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [Context refreshed]
+2021-02-22 18:26:31 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [Found 1 custom documentation plugin(s)]
+2021-02-22 18:26:31 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [Scanning for api listing references]
+2021-02-22 18:26:31 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [Generating unique operation named: getByIdUsingGET_1]
+2021-02-22 18:26:31 INFO  com.xietian.graduated.GraduatedApplication [Started GraduatedApplication in 2.852 seconds (JVM running for 4.479)]
+2021-02-22 18:26:34 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Initializing Spring DispatcherServlet 'dispatcherServlet']
+2021-02-22 18:26:34 INFO  org.springframework.web.servlet.DispatcherServlet [Initializing Servlet 'dispatcherServlet']
+2021-02-22 18:26:34 INFO  org.springframework.web.servlet.DispatcherServlet [Completed initialization in 1 ms]
+2021-02-22 18:26:34 INFO  com.zaxxer.hikari.HikariDataSource [HikariPool-1 - Starting...]
+2021-02-22 18:26:34 INFO  com.zaxxer.hikari.HikariDataSource [HikariPool-1 - Start completed.]
+2021-02-22 18:29:21 INFO  org.hibernate.validator.internal.util.Version [HV000001: Hibernate Validator 5.4.1.Final]
+2021-02-22 18:29:21 INFO  com.xietian.graduated.GraduatedApplication [Starting GraduatedApplication using Java 1.8.0_261 on DESKTOP-D50U990 with PID 7044 (D:\java\IntelliJ IDEA 2017.2.2\project\graduated\target\classes started by xt111 in D:\java\IntelliJ IDEA 2017.2.2\project\graduated)]
+2021-02-22 18:29:21 INFO  com.xietian.graduated.GraduatedApplication [No active profile set, falling back to default profiles: default]
+2021-02-22 18:29:21 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable]
+2021-02-22 18:29:21 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG']
+2021-02-22 18:29:22 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Multiple Spring Data modules found, entering strict repository configuration mode!]
+2021-02-22 18:29:22 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Bootstrapping Spring Data Redis repositories in DEFAULT mode.]
+2021-02-22 18:29:22 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.]
+2021-02-22 18:29:22 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [Tomcat initialized with port(s): 8088 (https) 8086 (http)]
+2021-02-22 18:29:22 INFO  org.apache.coyote.http11.Http11NioProtocol [Initializing ProtocolHandler ["https-openssl-nio-8088"]]
+2021-02-22 18:29:22 INFO  org.apache.coyote.http11.Http11NioProtocol [Initializing ProtocolHandler ["http-nio-8086"]]
+2021-02-22 18:29:22 INFO  org.apache.catalina.core.StandardService [Starting service [Tomcat]]
+2021-02-22 18:29:22 INFO  org.apache.catalina.core.StandardEngine [Starting Servlet engine: [Apache Tomcat/9.0.39]]
+2021-02-22 18:29:22 INFO  org.apache.catalina.core.AprLifecycleListener [Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].]
+2021-02-22 18:29:22 INFO  org.apache.catalina.core.AprLifecycleListener [APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].]
+2021-02-22 18:29:22 INFO  org.apache.catalina.core.AprLifecycleListener [APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]]
+2021-02-22 18:29:22 INFO  org.apache.catalina.core.AprLifecycleListener [OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]]
+2021-02-22 18:29:22 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Initializing Spring embedded WebApplicationContext]
+2021-02-22 18:29:22 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [Root WebApplicationContext: initialization completed in 1112 ms]
+2021-02-22 18:29:23 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Initializing ExecutorService 'applicationTaskExecutor']
+2021-02-22 18:29:23 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [LiveReload server is running on port 35729]
+2021-02-22 18:29:23 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [Initializing ExecutorService 'taskScheduler']
+2021-02-22 18:29:23 INFO  org.apache.coyote.http11.Http11NioProtocol [Starting ProtocolHandler ["https-openssl-nio-8088"]]
+2021-02-22 18:29:23 INFO  org.apache.coyote.http11.Http11NioProtocol [Starting ProtocolHandler ["http-nio-8086"]]
+2021-02-22 18:29:23 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [Tomcat started on port(s): 8088 (https) 8086 (http) with context path '']
+2021-02-22 18:29:23 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [Context refreshed]
+2021-02-22 18:29:23 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [Found 1 custom documentation plugin(s)]
+2021-02-22 18:29:23 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [Scanning for api listing references]
+2021-02-22 18:29:23 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [Generating unique operation named: getByIdUsingGET_1]
+2021-02-22 18:29:24 INFO  com.xietian.graduated.GraduatedApplication [Started GraduatedApplication in 2.745 seconds (JVM running for 4.455)]
+2021-02-22 18:29:28 INFO  com.zaxxer.hikari.HikariDataSource [HikariPool-1 - Starting...]
+2021-02-22 18:29:28 INFO  com.zaxxer.hikari.HikariDataSource [HikariPool-1 - Start completed.]
+2021-02-22 18:29:29 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Initializing Spring DispatcherServlet 'dispatcherServlet']
+2021-02-22 18:29:29 INFO  org.springframework.web.servlet.DispatcherServlet [Initializing Servlet 'dispatcherServlet']
+2021-02-22 18:29:29 INFO  org.springframework.web.servlet.DispatcherServlet [Completed initialization in 1 ms]
+2021-02-22 18:31:47 INFO  org.hibernate.validator.internal.util.Version [HV000001: Hibernate Validator 5.4.1.Final]
+2021-02-22 18:31:47 INFO  com.xietian.graduated.GraduatedApplication [Starting GraduatedApplication using Java 1.8.0_261 on DESKTOP-D50U990 with PID 21064 (D:\java\IntelliJ IDEA 2017.2.2\project\graduated\target\classes started by xt111 in D:\java\IntelliJ IDEA 2017.2.2\project\graduated)]
+2021-02-22 18:31:47 INFO  com.xietian.graduated.GraduatedApplication [No active profile set, falling back to default profiles: default]
+2021-02-22 18:31:47 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable]
+2021-02-22 18:31:47 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG']
+2021-02-22 18:31:47 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Multiple Spring Data modules found, entering strict repository configuration mode!]
+2021-02-22 18:31:47 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Bootstrapping Spring Data Redis repositories in DEFAULT mode.]
+2021-02-22 18:31:47 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.]
+2021-02-22 18:31:48 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [Tomcat initialized with port(s): 8088 (https) 8086 (http)]
+2021-02-22 18:31:48 INFO  org.apache.coyote.http11.Http11NioProtocol [Initializing ProtocolHandler ["https-openssl-nio-8088"]]
+2021-02-22 18:31:48 INFO  org.apache.coyote.http11.Http11NioProtocol [Initializing ProtocolHandler ["http-nio-8086"]]
+2021-02-22 18:31:48 INFO  org.apache.catalina.core.StandardService [Starting service [Tomcat]]
+2021-02-22 18:31:48 INFO  org.apache.catalina.core.StandardEngine [Starting Servlet engine: [Apache Tomcat/9.0.39]]
+2021-02-22 18:31:48 INFO  org.apache.catalina.core.AprLifecycleListener [Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].]
+2021-02-22 18:31:48 INFO  org.apache.catalina.core.AprLifecycleListener [APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].]
+2021-02-22 18:31:48 INFO  org.apache.catalina.core.AprLifecycleListener [APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]]
+2021-02-22 18:31:48 INFO  org.apache.catalina.core.AprLifecycleListener [OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]]
+2021-02-22 18:31:48 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Initializing Spring embedded WebApplicationContext]
+2021-02-22 18:31:48 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [Root WebApplicationContext: initialization completed in 1121 ms]
+2021-02-22 18:31:48 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Initializing ExecutorService 'applicationTaskExecutor']
+2021-02-22 18:31:48 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [LiveReload server is running on port 35729]
+2021-02-22 18:31:49 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [Initializing ExecutorService 'taskScheduler']
+2021-02-22 18:31:49 INFO  org.apache.coyote.http11.Http11NioProtocol [Starting ProtocolHandler ["https-openssl-nio-8088"]]
+2021-02-22 18:31:49 INFO  org.apache.coyote.http11.Http11NioProtocol [Starting ProtocolHandler ["http-nio-8086"]]
+2021-02-22 18:31:49 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [Tomcat started on port(s): 8088 (https) 8086 (http) with context path '']
+2021-02-22 18:31:49 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [Context refreshed]
+2021-02-22 18:31:49 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [Found 1 custom documentation plugin(s)]
+2021-02-22 18:31:49 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [Scanning for api listing references]
+2021-02-22 18:31:49 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [Generating unique operation named: getByIdUsingGET_1]
+2021-02-22 18:31:49 INFO  com.xietian.graduated.GraduatedApplication [Started GraduatedApplication in 2.758 seconds (JVM running for 4.249)]
+2021-02-22 18:31:54 INFO  com.zaxxer.hikari.HikariDataSource [HikariPool-1 - Starting...]
+2021-02-22 18:31:54 INFO  com.zaxxer.hikari.HikariDataSource [HikariPool-1 - Start completed.]
+2021-02-22 18:31:55 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Initializing Spring DispatcherServlet 'dispatcherServlet']
+2021-02-22 18:31:55 INFO  org.springframework.web.servlet.DispatcherServlet [Initializing Servlet 'dispatcherServlet']
+2021-02-22 18:31:55 INFO  org.springframework.web.servlet.DispatcherServlet [Completed initialization in 2 ms]

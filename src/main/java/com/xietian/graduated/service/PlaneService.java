@@ -16,4 +16,6 @@ public interface PlaneService {
 
     Result<List<Plane>> getAllPlane();
 
+    Result<List<Plane>> list(int pageNo, int pageSize, String pName);
+
 }

@@ -34,7 +34,7 @@ public class FlightController {
 
     @ApiOperation(value = "删除航班(管理员)")
     @DeleteMapping("/admin/delFlight")
-    public Result<String> delFlight(@Param("id") Integer id){
+    public Result<String> delFlight(@RequestParam("fId") Integer id){
         return flightService.delFlight(id);
     }
 
@@ -44,6 +44,16 @@ public class FlightController {
         return flightService.getAllFlight();
     }
 
+    @ApiOperation(value = "分页获取航班数据")
+    @GetMapping("/admin/getForPage")
+    public Result<List<Flight>> getForPage(@RequestParam(value = "pageNo", defaultValue = "1") int pageNo,
+                                           @RequestParam(value = "pageSize", defaultValue = "10") int pageSize,
+                                           @RequestParam(value = "fName", required = false) String fName){
+        if(pageNo<1) pageNo = 1;
+        if(pageSize<0) pageSize = 10;
+        pageNo = (pageNo-1)*pageSize;
+        return flightService.selectForPage(pageNo,pageSize,fName);
+    }
     @ApiOperation(value = "提供用户查询航班数据")
     @PostMapping("/getFlightByDetail")
     public Result<List<Flight>> getByDetail(@RequestBody @Validated FlightDto flightDto){

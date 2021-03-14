@@ -73,6 +73,7 @@ public class FlightServiceImpl implements FlightService{
         FlightExample flightExample = new FlightExample();
         FlightExample.Criteria criteria = flightExample.createCriteria();
         criteria.andFIdGreaterThan(0);
+        flightExample.setOrderByClause("f_id desc");
         return Result.isSuccess(flightMapper.selectByExample(flightExample));
     }
 
@@ -108,6 +109,11 @@ public class FlightServiceImpl implements FlightService{
             return Result.isSuccess();
         }
         else return Result.isError(104,"被操作的数据不存在");
+    }
+
+    @Override
+    public Result<List<Flight>> selectForPage(int pageNo, int pageSize, String fName) {
+        return Result.isSuccess(flightMapper.selectForPage(pageNo,pageSize,fName));
     }
 
 }

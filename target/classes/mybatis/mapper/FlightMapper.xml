@@ -308,7 +308,7 @@
     select
     <include refid="Base_Column_List" />
     from flight
-    order by o_id desc
+    order by f_id desc
     limit 1
   </select>
 
@@ -317,6 +317,17 @@
     <include refid="Base_Column_List" />
     from flight
     where timestampdiff(HOUR,#{now},start_time) &gt; 0 and timestampdiff(HOUR,#{now},start_time) &lt; 3
+  </select>
+
+  <select id="selectForPage" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from flight
+    <if test="fName != null">
+    where f_name like '%${fName}%'
+    </if>
+    ORDER BY f_id DESC
+    LIMIT #{pageNo},#{pageSize}
   </select>
 
 </mapper>

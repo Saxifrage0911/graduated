@@ -245,4 +245,33 @@
     from `order`
     where `order`.`status`=0 and timestampdiff(MINUTE,create_time,#{now}) &gt; 30
   </select>
+
+  <select id="fList" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from `order`
+    where `status`=1 and u_id=#{uId}
+    order by o_id desc
+    limit #{pageNo},#{pageSize}
+  </select>
+
+  <select id="uList" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from `order`
+    where `status`!=1 and u_id=#{uId}
+    order by o_id desc
+    limit #{pageNo},#{pageSize}
+  </select>
+
+  <select id="selectAll" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from `order`
+    <if test="uId!=null">
+      where u_id = #{uId}
+    </if>
+    order by o_id desc
+    limit #{pageNo},#{pageSize}
+  </select>
 </mapper>

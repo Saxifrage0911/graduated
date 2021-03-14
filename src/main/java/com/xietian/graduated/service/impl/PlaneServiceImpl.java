@@ -58,6 +58,12 @@ public class PlaneServiceImpl implements PlaneService {
         PlaneExample planeExample = new PlaneExample();
         PlaneExample.Criteria criteria = planeExample.createCriteria();
         criteria.andPIdGreaterThan(0);
+        planeExample.setOrderByClause("p_id desc");
         return Result.isSuccess(planeMapper.selectByExample(planeExample));
+    }
+
+    @Override
+    public Result<List<Plane>> list(int pageNo, int pageSize, String pName) {
+        return Result.isSuccess(planeMapper.list(pageNo,pageSize,pName));
     }
 }

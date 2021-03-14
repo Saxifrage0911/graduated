@@ -208,4 +208,15 @@
       p_fc = #{pFc,jdbcType=INTEGER}
     where p_id = #{pId,jdbcType=INTEGER}
   </update>
+
+  <select id="list" resultMap="BaseResultMap">
+    SELECT
+    <include refid="Base_Column_List" />
+    FROM plane
+    <if test="pName != null">
+      WHERE p_name LIKE '%${pName}%'
+    </if>
+    ORDER BY p_id DESC
+    LIMIT #{pageNo},#{pageSize}
+  </select>
 </mapper>

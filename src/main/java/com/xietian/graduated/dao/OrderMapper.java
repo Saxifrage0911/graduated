@@ -36,4 +36,10 @@ public interface OrderMapper {
     List<Order> getOverdueOrder(@Param("now") Date now);
 
     Order getLatestOrder();
+
+    List<Order> uList(@Param("pageNo") int pageNo, @Param("pageSize") int pageSize, @Param("uId") int uid);
+
+    List<Order> fList(@Param("pageNo") int pageNo, @Param("pageSize") int pageSize, @Param("uId") int uid);
+
+    List<Order> selectAll(@Param("pageNo") int pageNo, @Param("pageSize") int pageSize, @Param("uId") Integer uid);
 }

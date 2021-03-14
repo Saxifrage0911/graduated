@@ -20,8 +20,14 @@ public class TicketController {
 
     @ApiOperation(value = "添加机票")
     @PostMapping("/admin/addTicket")
-    public Result<String> addTicket(@RequestBody @Validated Ticket ticket){
-        return ticketService.addTicket(ticket);
+    public Result<String> addTicket(@RequestBody List<Ticket> tickets){
+        return ticketService.addTicket(tickets);
+    }
+
+    @ApiOperation(value = "修改机票")
+    @PutMapping("/admin/updateTicket")
+    public Result<String> updateTicket(@RequestBody List<Ticket> tickets){
+        return ticketService.updateTicket(tickets);
     }
 
     @ApiOperation(value = "根据航班id获取机票")

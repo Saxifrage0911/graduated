@@ -43,4 +43,6 @@ public interface FlightMapper {
     int ticketSoldBus(@Param("fId") Integer fId, @Param("inc") Integer increment);
 
     int ticketSoldFc(@Param("fId") Integer fId, @Param("inc") Integer increment);
+
+    List<Flight> selectForPage(@Param("pageNo") int pageNo, @Param("pageSize") int pageSize, @Param("fName") String fName);
 }

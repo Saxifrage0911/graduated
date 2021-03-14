@@ -7,6 +7,7 @@ import com.xietian.graduated.pojo.TicketExample;
 import com.xietian.graduated.service.TicketService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import sun.security.rsa.RSAUtil;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,11 +18,21 @@ public class TicketServiceImpl implements TicketService{
     TicketMapper ticketMapper;
 
     @Override
-    public Result<String> addTicket(Ticket ticket) {
-        if(ticketMapper.insertSelective(ticket)>0){
-            return Result.isSuccess();
+    public Result<String> addTicket(List<Ticket> tickets) {
+        for(Ticket t: tickets){
+            if(ticketMapper.insertSelective(t)<0){
+                return Result.isError(101,"机票插入失败，机票为："+t);
+            }
         }
-        else return Result.isError(101,"插入失败");
+        return Result.isSuccess();
+    }
+
+    @Override
+    public Result<String> updateTicket(List<Ticket> tickets) {
+        for(Ticket t: tickets){
+            ticketMapper.updateByPrimaryKeySelective(t);
+        }
+        return Result.isSuccess();
     }
 
     @Override

@@ -48,4 +48,15 @@ public class PlaneController {
     public Result<Plane> getById(@RequestParam("pId") Integer pId){
         return planeService.getById(pId);
     }
+
+    @GetMapping("/getPlaneForPage")
+    @ApiOperation(value = "获取飞机页面数据")
+    public Result<List<Plane>> getPlaneForPage(@RequestParam(value = "pageNo", defaultValue = "1") int pageNo,
+                                               @RequestParam(value = "pageSize", defaultValue = "10") int pageSize,
+                                               @RequestParam(value = "pName", required = false) String pName){
+        if(pageNo<1) pageNo = 1;
+        if(pageSize<0) pageSize = 10;
+        pageNo = (pageNo-1)*pageSize;
+        return planeService.list(pageNo,pageSize,pName);
+    }
 }

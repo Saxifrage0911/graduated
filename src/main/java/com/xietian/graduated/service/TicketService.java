@@ -6,7 +6,9 @@ import com.xietian.graduated.pojo.Ticket;
 import java.util.List;
 
 public interface TicketService {
-    Result<String> addTicket(Ticket ticket);
+    Result<String> addTicket(List<Ticket> tickets);
+
+    Result<String> updateTicket(List<Ticket> tickets);
 
     Result<List<Ticket>> getByFid(int fid);
 

@@ -23,4 +23,6 @@ public interface FlightService {
     Result<List<Flight>> getFlightByDetail(String from, String to, Date startDay);
 
     Result<String> soldTicket(Integer fid, String ticketType,Integer increment);
+
+    Result<List<Flight>> selectForPage(int pageNo, int pageSize, String fName);
 }

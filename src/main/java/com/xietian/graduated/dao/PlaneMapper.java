@@ -29,4 +29,6 @@ public interface PlaneMapper {
     int updateByPrimaryKeySelective(Plane record);
 
     int updateByPrimaryKey(Plane record);
+
+    List<Plane> list(@Param("pageNo") int pageNo, @Param("pageSize") int pageSize, @Param("pName") String pName);
 }

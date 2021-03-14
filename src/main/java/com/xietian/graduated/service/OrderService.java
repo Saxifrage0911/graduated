@@ -17,11 +17,17 @@ public interface OrderService {
 
     Result<String> payOrder(Integer oId);
 
-    Result<List<OrderListDto>> getByUidF(Integer uId);
+    Result<List<OrderListDto>> getByUidF(Integer pageNo, Integer pageSize, Integer uId);
 
-    Result<List<OrderListDto>> getByUidU(Integer uId);
+    Result<List<OrderListDto>> getByUidU(Integer pageNo, Integer pageSize, Integer uId);
 
     Result<OrderCountDto> getOrderCount(Integer uId);
+
+    Result<Long> getAllOrderCount();
+
+    Result<List<OrderListDto>> selectAll(Integer pageNo, Integer pageSize,Integer uid);
+
+    List<Order> getAllForExport();
 
     void getOverdueOrderAndCancel();
 }

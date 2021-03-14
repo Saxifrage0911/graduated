@@ -97,22 +97,14 @@ public class OrderServiceImpl implements OrderService {
     }
 
     @Override
-    public Result<List<OrderListDto>> getByUidF(Integer uId) {
-        OrderExample orderExample = new OrderExample();
-        OrderExample.Criteria criteria = orderExample.createCriteria();
-        criteria.andUIdEqualTo(uId);
-        criteria.andStatusEqualTo((byte)1);
-        List<Order> list = orderMapper.selectByExample(orderExample);
+    public Result<List<OrderListDto>> getByUidF(Integer pageNo, Integer pageSize, Integer uId) {
+        List<Order> list = orderMapper.fList(pageNo,pageSize,uId);
         return Result.isSuccess(convertOrderListDto(list));
     }
 
     @Override
-    public Result<List<OrderListDto>> getByUidU(Integer uId) {
-        OrderExample orderExample = new OrderExample();
-        OrderExample.Criteria criteria = orderExample.createCriteria();
-        criteria.andUIdEqualTo(uId);
-        criteria.andStatusNotEqualTo((byte)1);
-        List<Order> list = orderMapper.selectByExample(orderExample);
+    public Result<List<OrderListDto>> getByUidU(Integer pageNo, Integer pageSize, Integer uId) {
+        List<Order> list = orderMapper.uList(pageNo,pageSize,uId);
         return Result.isSuccess(convertOrderListDto(list));
     }
 
@@ -135,6 +127,29 @@ public class OrderServiceImpl implements OrderService {
         return Result.isSuccess(countDto);
     }
 
+    @Override
+    public Result<Long> getAllOrderCount() {
+        OrderExample orderExample = new OrderExample();
+        OrderExample.Criteria criteria = orderExample.createCriteria();
+        criteria.andOIdGreaterThan(0);
+        return Result.isSuccess(orderMapper.countByExample(orderExample));
+    }
+
+    @Override
+    public Result<List<OrderListDto>> selectAll(Integer pageNo, Integer pageSize, Integer uid) {
+        List<Order> list = orderMapper.selectAll(pageNo,pageSize,uid);
+        return Result.isSuccess(convertOrderListDto(list));
+    }
+
+    @Override
+    public List<Order> getAllForExport() {
+        OrderExample orderExample = new OrderExample();
+        OrderExample.Criteria criteria = orderExample.createCriteria();
+        criteria.andOIdGreaterThan(0);
+        return orderMapper.selectByExample(orderExample);
+    }
+
+
     public List<OrderListDto> convertOrderListDto(List<Order> list){
         List<OrderListDto> result = new ArrayList<>();
         for(Order o: list){
@@ -145,8 +160,8 @@ public class OrderServiceImpl implements OrderService {
                 Flight f = flightService.getById(ticketService.getById(items.get(0).gettId()).getData().getfId()).getData();
                 BeanUtils.copyProperties(f,orderListDto);
                 orderListDto.setItemList(items);
-                result.add(orderListDto);
             }
+            result.add(orderListDto);
 
         }
         return result;
@@ -164,4 +179,5 @@ public class OrderServiceImpl implements OrderService {
         //更新订单状态
         orderMapper.checkOrder(new Date());
     }
+
 }
